@@ -1,39 +1,66 @@
 @charset "UTF-8";
 
-@font-face {
+@media (prefers-color-scheme: dark) 
+{
+    :root 
+    {
+      --bg: #121212;
+      --text-color: #eee;
+      --link-color: #809fff;
+    }
+}
+
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Thin.ttf");
     font-weight: 100;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Light.ttf");
     font-weight: 300;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Regular.ttf");
     font-weight: 400;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Medium.ttf");
     font-weight: 500;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Bold.ttf");
     font-weight: 700;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "HarmonyOS Sans SC";
     src: url("./font/HarmonyOS_Sans_SC_Black.ttf");
     font-weight: 900;
+}
+
+body 
+{
+    color: var(--text-color);
+    background: var(--bg);
+}
+
+body a 
+{
+    color: var(--link-color);
 }
 
 .default_paragraph
