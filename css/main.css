@@ -1,15 +1,50 @@
 @charset "UTF-8";
 
+/* 以下简单的深色模式适配参见 https://open.workplus.io/dev/post/9-dark-mode-guide-on-web.html */
+/* 配置浅色模式下的背景色和前景色。 */
+@media (prefers-color-scheme: light) 
+{
+    :root 
+    {
+        --bg: #e3e3e1;
+        --text-color: #373d3f;
+        --link-color: #4b5c74;
+    }
+}
+
+/* 配置深色模式下的背景色和前景色。 */
 @media (prefers-color-scheme: dark) 
 {
     :root 
     {
-      --bg: #121212;
-      --text-color: #eee;
-      --link-color: #809fff;
+        --bg: #353c3e;
+        --text-color: #f6f6f6;
+        --link-color: #c6d0e3;
     }
+
+    /* 同时，降低所有图片的亮度，提高对比度，以适应深色模式。 */
+    img {
+        filter: brightness(0.8) contrast(1.2);
+      }
 }
 
+/* 配置默认状态下的背景色和前景色。这里选择和深色模式一致（因为懒，深色模式可以避免眩目）。 */
+@media (prefers-color-scheme: no-preference) 
+{
+    :root 
+    {
+        --bg: #353c3e;
+        --text-color: #f6f6f6;
+        --link-color: #c6d0e3;
+    }
+
+    img {
+        filter: brightness(0.8) contrast(1.2);
+      }
+}
+
+
+/* 配置字体，在此选择了可以免费商用的 Harmony OS Sans SC */
 @font-face 
 {
     font-family: "HarmonyOS Sans SC";
@@ -52,35 +87,64 @@
     font-weight: 900;
 }
 
+
+/* 配置样式。 */
+/* 配置 body 的总体样式。 */
 body 
 {
+    /* 用于切换颜色模式时的渐变效果。 */
+    --duration: 0.5s;
+    --timing: ease;
+
+    /* 使用变量动态配置背景色和前景色。 */
     color: var(--text-color);
     background: var(--bg);
+
+    /* 在切换颜色模式时，产生渐变效果。 */
+    transition: background-color var(--duration) var(--timing), color var(
+        --duration
+      ) var(--timing);
 }
 
+/* 配置 body 中超链接的样式。 */
 body a 
 {
+    /* 用于切换颜色模式时的渐变效果。 */
+    --duration: 0.5s;
+    --timing: ease;
+
+    /* 使用变量动态配置链接颜色。 */
     color: var(--link-color);
+
+    /* 在切换颜色模式时，产生渐变效果。 */
+    transition: background-color var(--duration) var(--timing), color var(
+        --duration
+      ) var(--timing);
 }
 
+/* 配置默认的段落样式。 */
 .default_paragraph
 {
     font-family: "HarmonyOS Sans SC";
     font-weight: normal;
 }
 
+/* 配置默认的标题样式。 */
 .default_header
 {
     font-family: "HarmonyOS Sans SC";
     font-weight: bolder;
 }
 
+/* 配置默认的加粗段落样式。 */
 .default_bold_paragraph
 {
     font-family: "HarmonyOS Sans SC";
     font-weight: bold;
 }
 
+
+/* 字体居中样式。 */
 .text_center_align
 {
     text-align: center;
