@@ -1,0 +1,153 @@
+@media (prefers-color-scheme: light) 
+{
+    th, td
+    {
+        border: 1px solid #373d3f;
+        text-align: center;
+    }
+}
+
+@media (prefers-color-scheme: dark) 
+{
+    th, td
+    {
+        border: 1px solid #f6f6f6;
+        text-align: center;
+    }
+}
+
+@media (prefers-color-scheme: no-preference) 
+{
+    th, td
+    {
+        border: 1px solid #f6f6f6;
+        text-align: center;
+    }
+}
+
+table
+{
+    margin: auto;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+table caption
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.table-cell-wuhan-metro-line-1
+{
+    background-color: #2665b0;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-2
+{
+    background-color: #e087b1;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-3
+{
+    background-color: #dbb866;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-4
+{
+    background-color: #b7d201;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-5
+{
+    background-color: #a42f32;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-6
+{
+    background-color: #007733;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-7
+{
+    background-color: #ee7901;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-8
+{
+    background-color: #9badac;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-11
+{
+    background-color: #fed000;
+    color: #000000;
+}
+
+.table-cell-wuhan-metro-line-16
+{
+    background-color: #d9587c;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-19
+{
+    background-color: #19a27a;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-line-21
+{
+    background-color: #b60081;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-coming-soon
+{
+    font-style: italic;
+}
+
+.table-cell-wuhan-metro-hongtu-boulevard-on-line-2
+{
+    background-color: #bbb389;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-hongtu-boulevard-on-line-3
+{
+    background-color: #be9aaf;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-hongtu-boulevard-on-line-8
+{
+    background-color: #dea08c;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-xianggang-road-on-line-3
+{
+    background-color: #77781a;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-xianggang-road-on-line-6
+{
+    background-color: #e59934;
+    color: #ffffff;
+}
+
+.table-cell-wuhan-metro-xianggang-road-on-line-7
+{
+    background-color: #6e984d;
+    color: #ffffff;
+}
