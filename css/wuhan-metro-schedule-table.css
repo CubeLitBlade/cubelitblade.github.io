@@ -409,62 +409,62 @@ a.link-wuhan-metro-line-21:hover
 /* 2号线宏图大道站的单元格渐变样式，由归元金渐变到编钟青。 */
 .table-cell-wuhan-metro-hongtu-boulevard-with-linear-gradient-on-line-2
 {
-    background-image: linear-gradient(to right, #dbb866, #9badac);
+    background-image: linear-gradient(to right, #dbb866 25%, #9badac 75%);
     color: #ffffff;
 }
 
 /* 3号线宏图大道站的单元格渐变样式，由梅花红渐变到编钟青。 */
 .table-cell-wuhan-metro-hongtu-boulevard-with-linear-gradient-on-line-3
 {
-    background-image: linear-gradient(to right, #e087b1, #9badac);
+    background-image: linear-gradient(to right, #e087b1 25%, #9badac 75%);
     color: #ffffff;
 }
 
 /* 8号线宏图大道站的单元格渐变样式，由梅花红渐变到归元金。 */
-.table-cell-wuhan-metro-hongtu-with-linear-gradient-boulevard-on-line-8
+.table-cell-wuhan-metro-hongtu-boulevard-with-linear-gradient-on-line-8
 {
-    background-image: linear-gradient(to right, #e087b1, #dbb866);
+    background-image: linear-gradient(to right, #e087b1 25%, #dbb866 75%);
     color: #ffffff;
 }
 
 /* 3号线香港路站的单元格渐变样式，由鹦鹉绿渐变到凤凰橙。 */
 .table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-3
 {
-    background-image: linear-gradient(to right, #007733, #ee7901);
+    background-image: linear-gradient(to right, #007733 25%, #ee7901 75%);
     color: #ffffff;
 }
 
 /* 6号线香港路站的单元格渐变样式，由归元金渐变到凤凰橙。 */
 .table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-6
 {
-    background-image: linear-gradient(to right, #dbb866, #ee7901);
+    background-image: linear-gradient(to right, #dbb866 25%, #ee7901 75%);
     color: #ffffff;
 }
 
 /* 3号线香港路站的单元格渐变样式，由归元金渐变到鹦鹉绿。 */
 .table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-7
 {
-    background-image: linear-gradient(to right, #dbb866, #007733);
+    background-image: linear-gradient(to right, #dbb866 25%, #007733 75%);
     color: #ffffff;
 }
 
 /* 5号线徐家棚站的单元格渐变样式，由凤凰橙渐变到编钟青。 */
 .table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-5
 {
-    background-image: linear-gradient(to right, #ee7901, #9badac);
+    background-image: linear-gradient(to right, #ee7901 25%, #9badac 75%);
     color: #ffffff;
 }
 
 /* 7号线徐家棚站的单元格渐变样式，由首义红渐变到编钟青。 */
 .table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-7
 {
-    background-image: linear-gradient(to right, #a42f32, #9badac);
+    background-image: linear-gradient(to right, #a42f32 25%, #9badac 75%);
     color: #ffffff;
 }
 
 /* 8号线徐家棚站的单元格渐变样式，由首义红渐变到凤凰橙。 */
 .table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-8
 {
-    background-image: linear-gradient(to right, #a42f32, #ee7901);
+    background-image: linear-gradient(to right, #a42f32 25%, #ee7901 75%);
     color: #ffffff;
 }
