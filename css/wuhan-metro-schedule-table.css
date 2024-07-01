@@ -1,153 +1,470 @@
+/* 设置浅色模式的颜色配置。 */
 @media (prefers-color-scheme: light) 
 {
+    /* 表格线颜色。 */
     th, td
     {
-        border: 1px solid #373d3f;
+        border: none;
+        outline-color: #373d3f;
+        outline-style: solid;
+        outline-width: 1px;
         text-align: center;
+    }
+
+    /* 更改 ul 的样式使其成为导航栏，设置导航栏的参数。 */
+    ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #baae94;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /* 更改 li 的样式使其成为导航栏的选项，设置导航栏各选项的对齐方式。 */
+    li 
+    {
+        float: left;
+    }
+     
+    /* 更改导航栏选项的超链接样式。 */
+    li a 
+    {
+        display: block;
+        color: #373d3f;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /*鼠标移动到导航栏时的默认高亮颜色 */
+    li a:hover {
+        background-color: #89787c;
+        color: #ffffff;
     }
 }
 
+/* 设置深色模式的颜色配置。 */
 @media (prefers-color-scheme: dark) 
 {
+    /* 表格线颜色。 */
     th, td
     {
-        border: 1px solid #f6f6f6;
+        border: none;
+        outline-color: #f6f6f6;
+        outline-style: solid;
+        outline-width: 1px;
         text-align: center;
+    }
+
+    /* 更改 ul 的样式使其成为导航栏，设置导航栏的参数。 */
+    ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #554e4e;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /* 更改 li 的样式使其成为导航栏的选项，设置导航栏各选项的对齐方式。 */
+    li 
+    {
+        float: left;
+    }
+     
+    /* 更改导航栏选项的超链接样式。 */
+    li a 
+    {
+        display: block;
+        color: #f6f6f6;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /*鼠标移动到导航栏时的默认高亮颜色 */
+    li a:hover {
+        background-color: #6b544a;
     }
 }
 
+/* 设置默认的颜色配置。 */
 @media (prefers-color-scheme: no-preference) 
 {
+    /* 表格线颜色。 */
     th, td
     {
-        border: 1px solid #f6f6f6;
+        border: none;
+        outline-color: #f6f6f6;
+        outline-style: solid;
+        outline-width: 1px;
         text-align: center;
+    }
+
+    /* 更改 ul 的样式使其成为导航栏，设置导航栏的参数。 */
+    ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #554e4e;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /* 更改 li 的样式使其成为导航栏的选项，设置导航栏各选项的对齐方式。 */
+    li 
+    {
+        float: left;
+    }
+     
+    /* 更改导航栏选项的超链接样式。 */
+    li a 
+    {
+        display: block;
+        color: #f6f6f6;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /*鼠标移动到导航栏时的默认高亮颜色 */
+    li a:hover {
+        background-color: #6b544a;
     }
 }
 
+/* 设置表格位置、宽度、表格线等属性。 */
 table
 {
     margin: auto;
     width: 75%;
     border-collapse: collapse;
+    white-space: nowrap;
+    padding-top: 0;
 }
 
+/* 设置表头浮动。*/
+table thead
+{
+    position: sticky;
+    top: 3em;
+}
+
+/* 设置表格标题格式。 */
 table caption
 {
     font-size: 2em;
     font-weight: bold;
-    margin: 1em 0;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
+/* 带有武汉轨道交通1号线配色（地铁蓝）的单元格样式。 */
 .table-cell-wuhan-metro-line-1
 {
     background-color: #2665b0;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通2号线配色（梅花红）的单元格样式。 */
 .table-cell-wuhan-metro-line-2
 {
     background-color: #e087b1;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通3号线配色（归元金）的单元格样式。 */
 .table-cell-wuhan-metro-line-3
 {
     background-color: #dbb866;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通4号线配色（芳草绿）的单元格样式。 */
 .table-cell-wuhan-metro-line-4
 {
     background-color: #b7d201;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通1号线配色（首义红）的单元格样式。 */
 .table-cell-wuhan-metro-line-5
 {
     background-color: #a42f32;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通6号线配色（鹦鹉绿）的单元格样式。 */
 .table-cell-wuhan-metro-line-6
 {
     background-color: #007733;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通7号线配色（凤凰橙）的单元格样式。 */
 .table-cell-wuhan-metro-line-7
 {
     background-color: #ee7901;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通8号线配色（编钟青）的单元格样式。 */
 .table-cell-wuhan-metro-line-8
 {
     background-color: #9badac;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通11号线配色（云鹤黄）的单元格样式。 */
 .table-cell-wuhan-metro-line-11
 {
     background-color: #fed000;
     color: #000000;
 }
 
+/* 带有武汉轨道交通16号线配色（芙蓉红）的单元格样式。 */
 .table-cell-wuhan-metro-line-16
 {
     background-color: #d9587c;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通19号线配色（灵泉青）的单元格样式。 */
 .table-cell-wuhan-metro-line-19
 {
     background-color: #19a27a;
     color: #ffffff;
 }
 
+/* 带有武汉轨道交通21号线配色（云苔紫）的单元格样式。 */
 .table-cell-wuhan-metro-line-21
 {
     background-color: #b60081;
     color: #ffffff;
 }
 
+/* 暂未开通的项目的单元格样式。 */
 .table-cell-wuhan-metro-coming-soon
 {
     font-style: italic;
 }
 
+/* （弃用）2号线宏图大道站的单元格混色样式，为归元金和编钟青的混合。 */
 .table-cell-wuhan-metro-hongtu-boulevard-on-line-2
 {
     background-color: #bbb389;
     color: #ffffff;
 }
 
+/* （弃用）3号线宏图大道站的单元格混色样式，为梅花红和编钟青的混合。 */
 .table-cell-wuhan-metro-hongtu-boulevard-on-line-3
 {
     background-color: #be9aaf;
     color: #ffffff;
 }
 
+/* （弃用）8号线宏图大道站的单元格混色样式，为梅花红和归元金的混合。 */
 .table-cell-wuhan-metro-hongtu-boulevard-on-line-8
 {
     background-color: #dea08c;
     color: #ffffff;
 }
 
+/* （弃用）3号线香港路站的单元格混色样式，为鹦鹉绿和凤凰橙的混合。 */
 .table-cell-wuhan-metro-xianggang-road-on-line-3
 {
     background-color: #77781a;
     color: #ffffff;
 }
 
+/* （弃用）6号线香港路站的单元格混色样式，为归元金和凤凰橙的混合。 */
 .table-cell-wuhan-metro-xianggang-road-on-line-6
 {
     background-color: #e59934;
     color: #ffffff;
 }
 
+/* （弃用）3号线香港路站的单元格混色样式，为归元金和鹦鹉绿的混合。 */
 .table-cell-wuhan-metro-xianggang-road-on-line-7
 {
     background-color: #6e984d;
+    color: #ffffff;
+}
+
+/* （弃用）5号线徐家棚站的单元格混色样式，为凤凰橙和编钟青的混合。 */
+.table-cell-wuhan-metro-xujiapeng-on-line-5
+{
+    background-color: #c59357;
+    color: #ffffff;
+}
+
+/* （弃用）7号线徐家棚站的单元格混色样式，为首义红和编钟青的混合。 */
+.table-cell-wuhan-metro-xujiapeng-on-line-7
+{
+    background-color: #a06e6f;
+    color: #ffffff;
+}
+
+/* （弃用）8号线徐家棚站的单元格混色样式，为首义红和凤凰橙的混合。 */
+.table-cell-wuhan-metro-xujiapeng-on-line-8
+{
+    background-color: #c9541a;
+    color: #ffffff;
+}
+
+/* 导航栏1号线按钮的悬停样式，将渐变为地铁蓝。 */
+a.link-wuhan-metro-line-1:hover
+{
+    background-color: #2665b0;
+    color: #ffffff;
+}
+
+/* 导航栏2号线按钮的悬停样式，将渐变为梅花红。 */
+a.link-wuhan-metro-line-2:hover
+{
+    background-color: #e087b1;
+    color: #ffffff;
+}
+
+/* 导航栏3号线按钮的悬停样式，将渐变为归元金。 */
+a.link-wuhan-metro-line-3:hover
+{
+    background-color: #dbb866;
+    color: #ffffff;
+}
+
+/* 导航栏4号线按钮的悬停样式，将渐变为芳草绿。 */
+a.link-wuhan-metro-line-4:hover
+{
+    background-color: #b7d201;
+    color: #ffffff;
+}
+
+/* 导航栏5号线按钮的悬停样式，将渐变为首义红。 */
+a.link-wuhan-metro-line-5:hover
+{
+    background-color: #a42f32;
+    color: #ffffff;
+}
+
+/* 导航栏6号线按钮的悬停样式，将渐变为鹦鹉绿。 */
+a.link-wuhan-metro-line-6:hover
+{
+    background-color: #007733;
+    color: #ffffff;
+}
+
+/* 导航栏7号线按钮的悬停样式，将渐变为凤凰橙。 */
+a.link-wuhan-metro-line-7:hover
+{
+    background-color: #ee7901;
+    color: #ffffff;
+}
+
+/* 导航栏8号线按钮的悬停样式，将渐变为编钟青。 */
+a.link-wuhan-metro-line-8:hover
+{
+    background-color: #9badac;
+    color: #ffffff;
+}
+
+/* 导航栏11号线按钮的悬停样式，将渐变为云鹤黄。 */
+a.link-wuhan-metro-line-11:hover
+{
+    background-color: #fed000;
+    color: #000000;
+}
+
+/* 导航栏16号线按钮的悬停样式，将渐变为芙蓉红。 */
+a.link-wuhan-metro-line-16:hover
+{
+    background-color: #d9587c;
+    color: #ffffff;
+}
+
+/* 导航栏19号线按钮的悬停样式，将渐变为灵泉青。 */
+a.link-wuhan-metro-line-19:hover
+{
+    background-color: #19a27a;
+    color: #ffffff;
+}
+
+/* 导航栏21号线按钮的悬停样式，将渐变为云苔紫。 */
+a.link-wuhan-metro-line-21:hover
+{
+    background-color: #b60081;
+    color: #ffffff;
+}
+
+/* 2号线宏图大道站的单元格渐变样式，由归元金渐变到编钟青。 */
+.table-cell-wuhan-metro-hongtu-boulevard-with-linear-gradient-on-line-2
+{
+    background-image: linear-gradient(to right, #dbb866, #9badac);
+    color: #ffffff;
+}
+
+/* 3号线宏图大道站的单元格渐变样式，由梅花红渐变到编钟青。 */
+.table-cell-wuhan-metro-hongtu-boulevard-with-linear-gradient-on-line-3
+{
+    background-image: linear-gradient(to right, #e087b1, #9badac);
+    color: #ffffff;
+}
+
+/* 8号线宏图大道站的单元格渐变样式，由梅花红渐变到归元金。 */
+.table-cell-wuhan-metro-hongtu-with-linear-gradient-boulevard-on-line-8
+{
+    background-image: linear-gradient(to right, #e087b1, #dbb866);
+    color: #ffffff;
+}
+
+/* 3号线香港路站的单元格渐变样式，由鹦鹉绿渐变到凤凰橙。 */
+.table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-3
+{
+    background-image: linear-gradient(to right, #007733, #ee7901);
+    color: #ffffff;
+}
+
+/* 6号线香港路站的单元格渐变样式，由归元金渐变到凤凰橙。 */
+.table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-6
+{
+    background-image: linear-gradient(to right, #dbb866, #ee7901);
+    color: #ffffff;
+}
+
+/* 3号线香港路站的单元格渐变样式，由归元金渐变到鹦鹉绿。 */
+.table-cell-wuhan-metro-xianggang-road-with-linear-gradient-on-line-7
+{
+    background-image: linear-gradient(to right, #dbb866, #007733);
+    color: #ffffff;
+}
+
+/* 5号线徐家棚站的单元格渐变样式，由凤凰橙渐变到编钟青。 */
+.table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-5
+{
+    background-image: linear-gradient(to right, #ee7901, #9badac);
+    color: #ffffff;
+}
+
+/* 7号线徐家棚站的单元格渐变样式，由首义红渐变到编钟青。 */
+.table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-7
+{
+    background-image: linear-gradient(to right, #a42f32, #9badac);
+    color: #ffffff;
+}
+
+/* 8号线徐家棚站的单元格渐变样式，由首义红渐变到凤凰橙。 */
+.table-cell-wuhan-metro-xujiapeng-with-linear-gradient-on-line-8
+{
+    background-image: linear-gradient(to right, #a42f32, #ee7901);
     color: #ffffff;
 }
