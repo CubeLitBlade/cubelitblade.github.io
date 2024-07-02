@@ -1,0 +1,1642 @@
+{
+    "name": 
+    {
+        "line":
+        {
+            "line_1": 
+            {
+                "zh": "1号线",
+                "en": "Line 1"
+            },
+            "line_2": 
+            {
+                "zh": "2号线",
+                "en": "Line 2"
+            },
+            "line_3": 
+            {
+                "zh": "3号线",
+                "en": "Line 3"
+            },
+            "line_4": 
+            {
+                "zh": "4号线",
+                "en": "Line 4"
+            },
+            "line_5": 
+            {
+                "zh": "5号线",
+                "en": "Line 5"
+            },
+            "line_6": 
+            {
+                "zh": "6号线",
+                "en": "Line 6"
+            },
+            "line_7": 
+            {
+                "zh": "7号线",
+                "en": "Line 7"
+            },
+            "line_8": 
+            {
+                "zh": "8号线",
+                "en": "Line 8"
+            },
+            "line_11": 
+            {
+                "zh": "11号线",
+                "en": "Line 11"
+            },
+            "line_16": 
+            {
+                "zh": "16号线",
+                "en": "Line 16"
+            },
+            "line_19": 
+            {
+                "zh": "19号线",
+                "en": "Line 19"
+            },
+            "line_21": 
+            {
+                "zh": "阳逻线",
+                "en": "Yangluo Line"
+            }
+        },
+        "station": {
+            "zongguan": 
+            {
+                "zh": "宗关",
+                "en": "Zongguan"
+            },
+            "qiaokou_lu": 
+            {
+                "zh": "硚口路",
+                "en": "Qiaokou Road"
+            },
+            "chongren_lu": 
+            {
+                "zh": "崇仁路",
+                "en": "Chongren Road"
+            },
+            "liji_beilu": 
+            {
+                "zh": "利济北路",
+                "en": "Liji North Road"
+            },
+            "youyi_lu": 
+            {
+                "zh": "友谊路",
+                "en": "Youyi Road"
+            },
+            "jianghan_lu": 
+            {
+                "zh": "循礼门",
+                "en": "Xunlimen"
+            },
+            "dazhi_lu": 
+            {
+                "zh": "大智路",
+                "en": "Dazhi Road"
+            },
+            "sanyang_lu": 
+            {
+                "zh": "三阳路",
+                "en": "Sanyang Road"
+            },
+            "huangpu_lu": 
+            {
+                "zh": "黄浦路",
+                "en": "Huangpu Road"
+            },
+            "taipingyang": 
+            {
+                "zh": "太平洋",
+                "en": "Taipingyang"
+            },
+            "toudao_street": 
+            {
+                "zh": "头道街",
+                "en": "Toudao Street"
+            },
+            "erqi_road": 
+            {
+                "zh": "二七路",
+                "en": "Erqi Road"
+            },
+            "xuzhouxincun": 
+            {
+                "zh": "徐州新村",
+                "en": "Xuzhouxincun"
+            },
+            "danshuichi": 
+            {
+                "zh": "丹水池",
+                "en": "Danshuichi"
+            },
+            "xinrong": 
+            {
+                "zh": "新荣",
+                "en": "Xinrong"
+            },
+            "dijiao": 
+            {
+                "zh": "堤角",
+                "en": "Dijiao"
+            },
+            "hanxi_1st_road": 
+            {
+                "zh": "汉西一路",
+                "en": "Hanxi 1st Road"
+            },
+            "gutian_4th_road": 
+            {
+                "zh": "古田四路",
+                "en": "Gutian 4th Road"
+            },
+            "gutian_3rd_road": 
+            {
+                "zh": "古田三路",
+                "en": "Gutian 3rd Road"
+            },
+            "gutian_2rd_road": 
+            {
+                "zh": "古田二路",
+                "en": "Gutian 2nd Road"
+            },
+            "gutian_1st_road": 
+            {
+                "zh": "古田一路",
+                "en": "Gutian 1st Road"
+            },
+            "duoluokou": 
+            {
+                "zh": "舵落口",
+                "en": "Duoluokou"
+            },
+            "etouwan": 
+            {
+                "zh": "额头湾",
+                "en": "Etouwan"
+            },
+            "wuhuan_boulevard": 
+            {
+                "zh": "五环大道",
+                "en": "Wuhuan Boulevard"
+            },
+            "dongwu_boulevard": 
+            {
+                "zh": "东吴大道",
+                "en": "Dongwu Boulevard"
+            },
+            "jinyintan": 
+            {
+                "zh": "金银潭",
+                "en": "Jinyintan"
+            },
+            "changqinghuayuan": 
+            {
+                "zh": "常青花园",
+                "en": "Changqinghuayuan"
+            },
+            "changgang_road": 
+            {
+                "zh": "长港路",
+                "en": "Changgang Road"
+            },
+            "hankou_railway_station_1": 
+            {
+                "zh": "汉口火车站",
+                "en": "Hankou Railway Station"
+            },
+            "fanhu": 
+            {
+                "zh": "范湖",
+                "en": "Fanhu"
+            },
+            "wangjiadun_east": 
+            {
+                "zh": "王家墩东",
+                "en": "Wangjiadun East"
+            },
+            "qingnian_road": 
+            {
+                "zh": "青年路",
+                "en": "Qingnian Road"
+            },
+            "zhongshan_park": 
+            {
+                "zh": "中山公园",
+                "en": "Zhongshan Park"
+            },
+            "jianghan_road": 
+            {
+                "zh": "江汉路",
+                "en": "Jianghan Road"
+            },
+            "jiyuqiao": 
+            {
+                "zh": "积玉桥",
+                "en": "Jiyuqiao"
+            },
+            "pangxiejia": 
+            {
+                "zh": "螃蟹岬",
+                "en": "Pangxiejia"
+            },
+            "xiaoguishan": 
+            {
+                "zh": "小龟山",
+                "en": "Xiaoguishan"
+            },
+            "hongshan_square": 
+            {
+                "zh": "洪山广场",
+                "en": "Hongshan Square"
+            },
+            "zhongnan_road": 
+            {
+                "zh": "中南路",
+                "en": "Zhongnan Road"
+            },
+            "baotong_temple": 
+            {
+                "zh": "宝通寺",
+                "en": "Baotong Temple"
+            },
+            "jiedaokou": 
+            {
+                "zh": "街道口",
+                "en": "Jiedaokou"
+            },
+            "guangbutun": 
+            {
+                "zh": "广埠屯",
+                "en": "Guangbutun"
+            },
+            "huquan": 
+            {
+                "zh": "虎泉",
+                "en": "Huquan"
+            },
+            "yangjiawan": 
+            {
+                "zh": "杨家湾",
+                "en": "Yangjiawan"
+            },
+            "optics_valley_square": 
+            {
+                "zh": "光谷广场",
+                "en": "Optics Valley Square"
+            },
+            "wuhan_railway_station_1": 
+            {
+                "zh": "武汉火车站",
+                "en": "Wuhan Railway Station"
+            },
+            "yangchunhu": 
+            {
+                "zh": "杨春湖",
+                "en": "Yangchunhu"
+            },
+            "gongye_4th_road": 
+            {
+                "zh": "工业四路",
+                "en": "Gongye 4th Road"
+            },
+            "renhe_road": 
+            {
+                "zh": "仁和路",
+                "en": "Renhe Road"
+            },
+            "yuanlin_road": 
+            {
+                "zh": "园林路",
+                "en": "Yuanlin Road"
+            },
+            "luojiagang": 
+            {
+                "zh": "罗家港",
+                "en": "Luojiagang"
+            },
+            "tieji_road": 
+            {
+                "zh": "铁机路",
+                "en": "Tieji Road"
+            },
+            "yuejiazui": 
+            {
+                "zh": "岳家嘴",
+                "en": "Yuejiazui"
+            },
+            "dongting": 
+            {
+                "zh": "东亭",
+                "en": "Dongting"
+            },
+            "qingyuzui": 
+            {
+                "zh": "青鱼嘴",
+                "en": "Qingyuzui"
+            },
+            "chuhehanjie": 
+            {
+                "zh": "楚河汉街",
+                "en": "Chuhehanjie"
+            },
+            "meiyuanxiaoqu": 
+            {
+                "zh": "梅苑小区",
+                "en": "Meiyuanxiaoqu"
+            },
+            "wuchang_railway_station_1": 
+            {
+                "zh": "武昌火车站",
+                "en": "Wuchang Railway Station"
+            },
+            "tengzigang": 
+            {
+                "zh": "滕子岗",
+                "en": "Tengzigang"
+            },
+            "shekouxincheng": 
+            {
+                "zh": "滠口新城",
+                "en": "Shekouxincheng"
+            },
+            "hankou_north": 
+            {
+                "zh": "汉口北",
+                "en": "Hankou North"
+            },
+            "zhuyehai": 
+            {
+                "zh": "竹叶海",
+                "en": "Zhuyehai"
+            },
+            "shouyi_road": 
+            {
+                "zh": "首义路",
+                "en": "Shouyi Road"
+            },
+            "fuxing_road": 
+            {
+                "zh": "复兴路",
+                "en": "Fuxing Road"
+            },
+            "lanjiang_road": 
+            {
+                "zh": "拦江路",
+                "en": "Lanjiang Road"
+            },
+            "zhongjiacun": 
+            {
+                "zh": "钟家村",
+                "en": "Zhongjiacun"
+            },
+            "hanyang_railway_station_1": 
+            {
+                "zh": "汉阳火车站",
+                "en": "Hanyang Railway Station"
+            },
+            "wulidun": 
+            {
+                "zh": "五里墩",
+                "en": "Wulidun"
+            },
+            "qilimiao": 
+            {
+                "zh": "七里庙",
+                "en": "Qilimiao"
+            },
+            "shilipu": 
+            {
+                "zh": "十里铺",
+                "en": "Shilipu"
+            },
+            "wangjiawan": 
+            {
+                "zh": "王家湾",
+                "en": "Wangjiawan"
+            },
+            "yulong_road": 
+            {
+                "zh": "玉龙路",
+                "en": "Yulong Road"
+            },
+            "yong_antang": 
+            {
+                "zh": "永安堂",
+                "en": "Yong'antang"
+            },
+            "mengjiapu": 
+            {
+                "zh": "孟家铺",
+                "en": "Mengjiapu"
+            },
+            "huangjinkou": 
+            {
+                "zh": "黄金口",
+                "en": "Huangjinkou"
+            },
+            "hongtu_boulevard": 
+            {
+                "zh": "宏图大道",
+                "en": "Hongtu Boulevard"
+            },
+            "citizens_home": 
+            {
+                "zh": "市民之家",
+                "en": "Citizens Home"
+            },
+            "houhu_boulevard": 
+            {
+                "zh": "后湖大道",
+                "en": "Houhu Boulevard"
+            },
+            "xingye_road": 
+            {
+                "zh": "兴业路",
+                "en": "Xingye Road"
+            },
+            "erqi_branch_road": 
+            {
+                "zh": "二七小路",
+                "en": "Erqi Branch Road"
+            },
+            "luojiazhuang": 
+            {
+                "zh": "罗家庄",
+                "en": "Luojiazhuang"
+            },
+            "zhaojiatiao": 
+            {
+                "zh": "赵家条",
+                "en": "Zhaojiatiao"
+            },
+            "huiji_2nd_road": 
+            {
+                "zh": "惠济二路",
+                "en": "Huiji 2nd Road"
+            },
+            "xianggang_road": 
+            {
+                "zh": "香港路",
+                "en": "Xianggang Road"
+            },
+            "lingjiaohu": 
+            {
+                "zh": "菱角湖",
+                "en": "Lingjiaohu"
+            },
+            "yunfei_road": 
+            {
+                "zh": "云飞路",
+                "en": "Yunfei Road"
+            },
+            "wuhan_business_district": 
+            {
+                "zh": "武汉商务区",
+                "en": "Wuhan Business District"
+            },
+            "shuangdun": 
+            {
+                "zh": "双墩",
+                "en": "Shuangdun"
+            },
+            "longyangcun": 
+            {
+                "zh": "龙阳村",
+                "en": "Longyangcun"
+            },
+            "taojialing": 
+            {
+                "zh": "陶家岭",
+                "en": "Taojialing"
+            },
+            "sixin_boulevard": 
+            {
+                "zh": "四新大道",
+                "en": "Sixin Boulevard"
+            },
+            "hanyang_long_distance_bus_station": 
+            {
+                "zh": "汉阳客运站",
+                "en": "Hanyang Long-Distance Bus Station"
+            },
+            "sanjiaohu": 
+            {
+                "zh": "三角湖",
+                "en": "Sanjiaohu"
+            },
+            "soprts_center": 
+            {
+                "zh": "体育中心",
+                "en": "Sports Center"
+            },
+            "dongfeng_motor_corporation": 
+            {
+                "zh": "东风公司",
+                "en": "Dongfeng Motor Corporation"
+            },
+            "zhuanyang_boulevard": 
+            {
+                "zh": "沌阳大道",
+                "en": "Zhuanyang Boulevard"
+            },
+            "changqingcheng":
+            {
+                "zh": "常青城",
+                "en": "Changqingcheng"
+            },
+            "panlongcheng":
+            {
+                "zh": "盘龙城",
+                "en": "Panlongcheng"
+            },
+            "julong_boulevard":
+            {
+                "zh": "巨龙大道",
+                "en": "Julong Boulevard"
+            },
+            "songjiagang":
+            {
+                "zh": "宋家岗",
+                "en": "Songjiagang"
+            },
+            "hangkongzongbu":
+            {
+                "zh": "航空总部",
+                "en": "Hangkongzongbu"
+            },
+            "tianhe_international_airport":
+            {
+                "zh": "天河机场",
+                "en": "Tianhe International Airport"
+            },
+            "jinyinhu_park":
+            {
+                "zh": "金银湖公园",
+                "en": "Jinyinhu Park"
+            },
+            "jinyinhu":
+            {
+                "zh": "金银湖",
+                "en": "Jinyinhu"
+            },
+            "garden_expo_north":
+            {
+                "zh": "园博园北",
+                "en": "Garden Expo North"
+            },
+            "whpu":
+            {
+                "zh": "轻工大学",
+                "en": "Polytechnic University"
+            },
+            "yangchahu":
+            {
+                "zh": "杨汊湖",
+                "en": "Yangchahu"
+            },
+            "shiqiao":
+            {
+                "zh": "石桥",
+                "en": "Shiqiao"
+            },
+            "sanyanqiao":
+            {
+                "zh": "三眼桥",
+                "en": "Sanyanqiao"
+            },
+            "miaoli_road":
+            {
+                "zh": "苗栗路",
+                "en": "Miaoli Road"
+            },
+            "liuduqiao":
+            {
+                "zh": "六渡桥",
+                "en": "Liuduqiao"
+            },
+            "hanzheng_street":
+            {
+                "zh": "汉正街",
+                "en": "Hanzheng Street"
+            },
+            "wusheng_road":
+            {
+                "zh": "武胜路",
+                "en": "Wusheng Road"
+            },
+            "qintai":
+            {
+                "zh": "琴台",
+                "en": "Qintai"
+            },
+            "maying_road":
+            {
+                "zh": "马鹦路",
+                "en": "Maying Road"
+            },
+            "jiangang":
+            {
+                "zh": "建港",
+                "en": "Jiangang"
+            },
+            "qianjincun":
+            {
+                "zh": "前进村",
+                "en": "Qianjincun"
+            },
+            "north_international_expo_center":
+            {
+                "zh": "国博中心北",
+                "en": "North International Expo Center"
+            },
+            "south_international_expo_center":
+            {
+                "zh": "国博中心南",
+                "en": "South International Expo Center"
+            },
+            "laoguancun":
+            {
+                "zh": "老关村",
+                "en": "Laoguancun"
+            },
+            "jiangcheng_boulevard":
+            {
+                "zh": "江城大道",
+                "en": "Jiangcheng Boulevard"
+            },
+            "checheng_east_road":
+            {
+                "zh": "车城东路",
+                "en": "Checheng East Road"
+            },
+            "matoutan_park":
+            {
+                "zh": "码头潭公园",
+                "en": "Matoutan Park"
+            },
+            "sandian":
+            {
+                "zh": "三店",
+                "en": "Sandian"
+            },
+            "jinghe":
+            {
+                "zh": "径河",
+                "en": "Jinghe"
+            },
+            "jintan_road":
+            {
+                "zh": "金潭路",
+                "en": "Jintan Road"
+            },
+            "tazihu":
+            {
+                "zh": "塔子湖",
+                "en": "Tazihu"
+            },
+            "zhongyi_road":
+            {
+                "zh": "中一路",
+                "en": "Zhongyi Road"
+            },
+            "zhuyeshan":
+            {
+                "zh": "竹叶山",
+                "en": "Zhuyeshan"
+            },
+            "xujiapeng":
+            {
+                "zh": "徐家棚",
+                "en": "Xujiapeng"
+            },
+            "xudong":
+            {
+                "zh": "徐东",
+                "en": "Xudong"
+            },
+            "wangjiadun":
+            {
+                "zh": "汪家墩",
+                "en": "Wangjiadun"
+            },
+            "liyuan":
+            {
+                "zh": "梨园",
+                "en": "Liyuan"
+            },
+            "baibutinghuayuan_road":
+            {
+                "zh": "百步亭花园路",
+                "en": "Baibutinghuayuan Road"
+            },
+            "xinrong_long_distance_bus_station":
+            {
+                "zh": "新荣",
+                "en": "Xinrong"
+            },
+            "xingfuwan":
+            {
+                "zh": "幸福湾",
+                "en": "Xingfuwan"
+            },
+            "zhujiahe":
+            {
+                "zh": "朱家河",
+                "en": "Zhujiahe"
+            },
+            "shenjiaji":
+            {
+                "zh": "谌家矶",
+                "en": "Shenjiaji"
+            },
+            "qinglong":
+            {
+                "zh": "青龙",
+                "en": "Qinglong"
+            },
+            "gaoche":
+            {
+                "zh": "高车",
+                "en": "Gaoche"
+            },
+            "wuhu":
+            {
+                "zh": "武湖",
+                "en": "Wuhu"
+            },
+            "shakou":
+            {
+                "zh": "沙口",
+                "en": "Shakou"
+            },
+            "junmincun":
+            {
+                "zh": "军民村",
+                "en": "Junmincun"
+            },
+            "whsw":
+            {
+                "zh": "武生院",
+                "en": "Wuhan Bioengineering Institute"
+            },
+            "yangluo":
+            {
+                "zh": "阳逻",
+                "en": "Yangluo"
+            },
+            "yangluo_development_zone":
+            {
+                "zh": "阳逻开发区",
+                "en": "Yangluo Development Zone"
+            },
+            "shigang":
+            {
+                "zh": "施岗",
+                "en": "Shigang"
+            },
+            "jintai":
+            {
+                "zh": "金台",
+                "en": "Jintai"
+            },
+            "garden_expo":
+            {
+                "zh": "园博园",
+                "en": "Garden Expo"
+            },
+            "changmatou":
+            {
+                "zh": "常码头",
+                "en": "Changmatou"
+            },
+            "qushuilou":
+            {
+                "zh": "取水楼",
+                "en": "Qushuilou"
+            },
+            "hubu":
+            {
+                "zh": "湖北大学",
+                "en": "Hubei University"
+            },
+            "xinhe_street":
+            {
+                "zh": "新河街",
+                "en": "Xinhe Street"
+            },
+            "xiaodongmen":
+            {
+                "zh": "小东门",
+                "en": "Xiaodongmen"
+            },
+            "ruian_street":
+            {
+                "zh": "瑞安街",
+                "en": "Ruian Street"
+            },
+            "jian_an_street":
+            {
+                "zh": "建安街",
+                "en": "Jian'an Street"
+            },
+            "hbut":
+            {
+                "zh": "湖工大",
+                "en": "Hubei University of Technology"
+            },
+            "banqiao":
+            {
+                "zh": "板桥",
+                "en": "Banqiao"
+            },
+            "yezhihu":
+            {
+                "zh": "野芷湖",
+                "en": "Yezhihu"
+            },
+            "optics_valley_railway_station":
+            {
+                "zh": "武汉东站",
+                "en": "Wuhandong Railway Station"
+            },
+            "hukou":
+            {
+                "zh": "湖口",
+                "en": "Hukou"
+            },
+            "tongji_hospital":
+            {
+                "zh": "光谷同济医院",
+                "en": "Tongji Hosipital"
+            },
+            "guanggushengwuyuan":
+            {
+                "zh": "光谷生物园",
+                "en": "Guanggushengwuyuan"
+            },
+            "guanggu_4th_road":
+            {
+                "zh": "光谷四路",
+                "en": "Guanggu 4th Road"
+            },
+            "guanggu_5th_road":
+            {
+                "zh": "光谷五路",
+                "en": "Guanggu 5th Road"
+            },
+            "guanggu_6th_road":
+            {
+                "zh": "光谷六路",
+                "en": "Guanggu 6th Road"
+            },
+            "baoxie":
+            {
+                "zh": "豹澥",
+                "en": "Baoxie"
+            },
+            "guanggu_7th_road":
+            {
+                "zh": "光谷七路",
+                "en": "Guanggu 7th Road"
+            },
+            "changlingshan":
+            {
+                "zh": "长岭山",
+                "en": "Changlinngshan"
+            },
+            "weilai_1st_road":
+            {
+                "zh": "未来一路",
+                "en": "Weilai 1st Road"
+            },
+            "weilai_3rd_road":
+            {
+                "zh": "未来三路",
+                "en": "Weilai 3rd Road"
+            },
+            "zuoling":
+            {
+                "zh": "左岭",
+                "en": "Zuoling"
+            },
+            "xinlucun":
+            {
+                "zh": "新路村",
+                "en": "Xinlucun"
+            },
+            "dahualing":
+            {
+                "zh": "大花岭",
+                "en": "Dahualing"
+            },
+            "jiangxiaketing":
+            {
+                "zh": "江夏客厅",
+                "en": "Jiangxiaketing"
+            },
+            "tanxinpei_park":
+            {
+                "zh": "谭鑫培公园",
+                "en": "Tanxinpei Park"
+            },
+            "beihua_street":
+            {
+                "zh": "北华街",
+                "en": "Beihua Street"
+            },
+            "zhifang_avenue":
+            {
+                "zh": "纸坊大街",
+                "en": "Zhifang Avenue"
+            },
+            "qinglongshan_ditiexiaozhen":
+            {
+                "zh": "青龙山地铁小镇",
+                "en": "Qinglongshan Ditiexiaozhen"
+            },
+            "luoxiong_road":
+            {
+                "zh": "珞雄路",
+                "en": "Luoxiong Road"
+            },
+            "hust":
+            {
+                "zh": "华中科技大学",
+                "en": "Huazhong University of Science and Technology"
+            },
+            "jiayuan_road":
+            {
+                "zh": "佳园路",
+                "en": "Jiayuan Road"
+            },
+            "huanglongshan_road":
+            {
+                "zh": "黄龙山路",
+                "en": "Huanglongshan Road"
+            },
+            "jinronggang_north":
+            {
+                "zh": "金融港北",
+                "en": "Jinronggang North"
+            },
+            "xiuhu":
+            {
+                "zh": "秀湖",
+                "en": "Xiuhu"
+            },
+            "canglong_east_street":
+            {
+                "zh": "藏龙东街",
+                "en": "Canglong East Street"
+            },
+            "fozuling":
+            {
+                "zh": "佛祖岭",
+                "en": "Fozuling"
+            },
+            "xintian":
+            {
+                "zh": "新天",
+                "en": "Xintian"
+            },
+            "jixian":
+            {
+                "zh": "集贤",
+                "en": "Jixian"
+            },
+            "zhiyin":
+            {
+                "zh": "知音",
+                "en": "Zhiyin"
+            },
+            "xinnong":
+            {
+                "zh": "新农",
+                "en": "Xinnong"
+            },
+            "fenghuang_road":
+            {
+                "zh": "凤凰路",
+                "en": "Fenghuang Road"
+            },
+            "caidian_square":
+            {
+                "zh": "蔡甸广场",
+                "en": "Caidian Square"
+            },
+            "linzhang_boulevard":
+            {
+                "zh": "临嶂大道",
+                "en": "Linzhang Boulevard"
+            },
+            "xinmiaocun":
+            {
+                "zh": "新庙村",
+                "en": "Xinmiaocun"
+            },
+            "bolin":
+            {
+                "zh": "柏林",
+                "en": "Bailin"
+            },
+            "huangjiahu_ditiexiaozhen":
+            {
+                "zh": "黄家湖地铁小镇",
+                "en": "Huangjiahu Ditiexiaozhen"
+            },
+            "military_athletes_village":
+            {
+                "zh": "军运村",
+                "en": "Military Athletes' Village"
+            },
+            "hubei_provincial_museum":
+            {
+                "zh": "省博湖北日报",
+                "en": "Hubei Provincial Museum & Hubei Daily"
+            },
+            "zhongnan_hospital":
+            {
+                "zh": "中南医院",
+                "en": "Zhongnan Hospital"
+            },
+            "shuiguohu":
+            {
+                "zh": "水果湖",
+                "en": "Shuiguohu"
+            },
+            "hongshan_road":
+            {
+                "zh": "洪山路",
+                "en": "Hongshan Road"
+            },
+            "xiaohongshan":
+            {
+                "zh": "小洪山",
+                "en": "Xiaohongshan"
+            },
+            "mafangshan":
+            {
+                "zh": "马房山",
+                "en": "Mafangshan"
+            },
+            "wenzhi_street":
+            {
+                "zh": "文治街",
+                "en": "Wenzhi Street"
+            },
+            "wenchang_road":
+            {
+                "zh": "文昌路",
+                "en": "Wenchang Road"
+            },
+            "hbaas":
+            {
+                "zh": "省农科院",
+                "en": "Hubei Academy of Agricultural Sciences"
+            },
+            "mahu":
+            {
+                "zh": "马湖",
+                "en": "Mahu"
+            },
+            "gediannan_railway_station":
+            {
+                "zh": "葛店南站",
+                "en": "Gediannan Railway Station"
+            },
+            "wuhan_railway_station_2":
+            {
+                "zh": "武汉站东广场",
+                "en": "East Square of Wuhan Railway Station"
+            },
+            "changqian":
+            {
+                "zh": "厂前",
+                "en": "Changqian"
+            },
+            "wugang":
+            {
+                "zh": "武钢",
+                "en": "Wugang"
+            },
+            "gongrencun":
+            {
+                "zh": "工人村",
+                "en": "Gongrencun"
+            },
+            "qingyiju":
+            {
+                "zh": "青宜居",
+                "en": "Qingyiju"
+            },
+            "honggangcheng":
+            {
+                "zh": "红钢城",
+                "en": "Honggangcheng"
+            },
+            "heping_park":
+            {
+                "zh": "和平公园",
+                "en": "Heping Park"
+            },
+            "jianshe_2nd_road":
+            {
+                "zh": "建设二路",
+                "en": "Jianshe 2nd Road"
+            },
+            "sceince_park":
+            {
+                "zh": "科普公园",
+                "en": "Science Park"
+            },
+            "yujiatou":
+            {
+                "zh": "余家头",
+                "en": "Yujiatou"
+            },
+            "yangyuan":
+            {
+                "zh": "杨园铁四院",
+                "en": "Yangyuan & Tiesiyuan"
+            },
+            "sanjiao_road":
+            {
+                "zh": "三角路",
+                "en": "Sanjiao Road"
+            },
+            "sancenglou":
+            {
+                "zh": "三层楼",
+                "en": "Sancenglou"
+            },
+            "tanhualin":
+            {
+                "zh": "昙华林武胜门",
+                "en": "Tanhualin & Wushengmen"
+            },
+            "simenkou":
+            {
+                "zh": "司门口黄鹤楼",
+                "en": "Simenkou & Yellow Crane Tower"
+            },
+            "pengliuyang":
+            {
+                "zh": "彭刘杨",
+                "en": "Pengliuyang"
+            },
+            "bapu_street":
+            {
+                "zh": "八铺街",
+                "en": "Bapu Street"
+            },
+            "fenghuocun":
+            {
+                "zh": "烽火村",
+                "en": "Fenghuocun"
+            },
+            "zhangjiawan":
+            {
+                "zh": "张家湾",
+                "en": "Zhangjiawan"
+            },
+            "guangxia":
+            {
+                "zh": "光霞",
+                "en": "Guangxia"
+            },
+            "baisha_6th_road":
+            {
+                "zh": "白沙六路",
+                "en": "Baisha 6th Road"
+            },
+            "hbtcm":
+            {
+                "zh": "中医药大学",
+                "en": "Hubei University of Chinese Medicine"
+            },
+            "haikou_3rd_road":
+            {
+                "zh": "海口三路",
+                "en": "Haikou 3rd Road"
+            },
+            "erya_road":
+            {
+                "zh": "二雅路",
+                "en": "Erya Road"
+            },
+            "five_rings_sports_center":
+            {
+                "zh": "五环体育中心",
+                "en": "Five Rings Sports Center"
+            },
+            "xincheng_11th_road":
+            {
+                "zh": "新城十一路",
+                "en": "Xincheng 11th Road"
+            },
+            "south_taizihu":
+            {
+                "zh": "南太子湖",
+                "en": "South Taizihu"
+            },
+            "zhuankou":
+            {
+                "zh": "沌口",
+                "en": "Zhuankou"
+            },
+            "xiaojunshan":
+            {
+                "zh": "小军山",
+                "en": "Xiaojunshan"
+            },
+            "fenglin":
+            {
+                "zh": "枫林",
+                "en": "Fenglin"
+            },
+            "dajunshan":
+            {
+                "zh": "大军山",
+                "en": "Dajunshan"
+            },
+            "guizihu":
+            {
+                "zh": "桂子湖",
+                "en": "Guizihu"
+            },
+            "mayinghe":
+            {
+                "zh": "马影河",
+                "en": "Mayinghe"
+            },
+            "xiezihe":
+            {
+                "zh": "协子河",
+                "en": "Xiezihe"
+            },
+            "wanhu":
+            {
+                "zh": "湾湖",
+                "en": "Wanhu"
+            },
+            "zhoujiahe":
+            {
+                "zh": "周家河",
+                "en": "Zhoujiahe"
+            },
+            "shamao":
+            {
+                "zh": "纱帽",
+                "en": "Shamao"
+            },
+            "hannan_general_airport":
+            {
+                "zh": "通航机场",
+                "en": "Hannan General Airport"
+            },
+            "machi":
+            {
+                "zh": "马池",
+                "en": "Machi"
+            },
+            "tangyunhai":
+            {
+                "zh": "汤云海路",
+                "en": "Tangyunhai Road"
+            },
+            "tenglong_boulevard":
+            {
+                "zh": "腾龙大道",
+                "en": "Tenglong Boulevard"
+            },
+            "tianyang_boulevard":
+            {
+                "zh": "天阳大道",
+                "en": "Tianyang Boulevard"
+            },
+            "yufu_road":
+            {
+                "zh": "裕福路",
+                "en": "Yufu Road"
+            },
+            "hengdian":
+            {
+                "zh": "横店",
+                "en": "Hengdian"
+            },
+            "wust":
+            {
+                "zh": "黄家湖（武科大）",
+                "en": "Huangjiahu (Wuhan University of Sci. and Tech.)"
+            },
+            "hongxia":
+            {
+                "zh": "红霞",
+                "en": "Hongxia"
+            },
+            "wuhan_railway_station_3":
+            {
+                "zh": "武汉站西广场",
+                "en": "West Square of Wuhan Railway Station"
+            },
+            "wudong":
+            {
+                "zh": "武东",
+                "en": "Wudong"
+            },
+            "gujiashan":
+            {
+                "zh": "鼓架山",
+                "en": "Gujiashan"
+            },
+            "huashanxincheng":
+            {
+                "zh": "花山新城",
+                "en": "Huashanxincheng"
+            },
+            "huashanhe":
+            {
+                "zh": "花山河",
+                "en": "Huashanhe"
+            },
+            "gaoxin_2nd_road":
+            {
+                "zh": "新月溪公园",
+                "en": "Xinyuexi Park"
+            },
+            "beichejidi":
+            {
+                "zh": "青仔村（轨道产业基地）",
+                "en": "Qingzicun (Rail Transit Industry Innovation Base)"
+            },
+            "baitai_road":
+            {
+                "zh": "百泰路",
+                "en": "Baitai Road"
+            },
+            "huangpi_square":
+            {
+                "zh": "黄陂广场",
+                "en": "Huangpi Square"
+            },
+            "guanshan_boulevard":
+            {
+                "zh": "关山大道",
+                "en": "Guanshan Boulevard"
+            },
+            "whsu":
+            {
+                "zh": "武汉体育学院",
+                "en": "Wuhan Sports University"
+            },
+            "dingziqiao":
+            {
+                "zh": "丁字桥",
+                "en": "Dingziqiao"
+            },
+            "wuchang_railway_station_2":
+            {
+                "zh": "武昌站东广场",
+                "en": "East Square of Wuchang Railway Station"
+            },
+            "ziyanghu":
+            {
+                "zh": "紫阳湖",
+                "en": "Ziyanghu"
+            },
+            "jiang_an_road":
+            {
+                "zh": "江安路",
+                "en": "Jiang'an Road"
+            },
+            "gangduhuayuan":
+            {
+                "zh": "钢都花园",
+                "en": "Gangduhuayuan"
+            },
+            "tuanjie_boulevard":
+            {
+                "zh": "团结大道",
+                "en": "Tuanjie Boulevard"
+            },
+            "qinyuan_road":
+            {
+                "zh": "秦园路",
+                "en": "Qinyuan Road"
+            },
+            "gongzheng_road":
+            {
+                "zh": "公正路",
+                "en": "Gongzheng Road"
+            },
+            "hejialong":
+            {
+                "zh": "何家垅",
+                "en": "Hejialong"
+            },
+            "middle_school_no_15":
+            {
+                "zh": "十五中",
+                "en": "15th Middle School"
+            },
+            "zhongyanghuayuan":
+            {
+                "zh": "中央花园",
+                "en": "Zhongyanghuayuan"
+            },
+            "fuan_street":
+            {
+                "zh": "富安街",
+                "en": "Fuan Street"
+            },
+            "chayesuo":
+            {
+                "zh": "茶叶所",
+                "en": "Chayesuo"
+            },
+            "fengshu_1st_road":
+            {
+                "zh": "枫树一路",
+                "en": "Fengshu 1st Road"
+            },
+            "fengshu_5th_road":
+            {
+                "zh": "枫树五路",
+                "en": "Fengshu 5th Road"
+            },
+            "quanli_2nd_road":
+            {
+                "zh": "全力二路",
+                "en": "Quanli 2nd Road"
+            },
+            "quanli_3rd_road":
+            {
+                "zh": "全力三路",
+                "en": "Quanli 3rd Road"
+            },
+            "wenling":
+            {
+                "zh": "文岭",
+                "en": "Wenling"
+            },
+            "jhun":
+            {
+                "zh": "江汉大学",
+                "en": "Jianghan University"
+            },
+            "boyi_road":
+            {
+                "zh": "博艺路",
+                "en": "Boyi Road"
+            },
+            "luojiacun":
+            {
+                "zh": "罗家村",
+                "en": "Luojiacun"
+            },
+            "lingwucun":
+            {
+                "zh": "凌吴村",
+                "en": "Lingwucun"
+            },
+            "bolan_road":
+            {
+                "zh": "博览路",
+                "en": "Bolan Road"
+            },
+            "sixin_south_road":
+            {
+                "zh": "四新南路",
+                "en": "Sixin South Road"
+            },
+            "sixin_middle_road":
+            {
+                "zh": "四新中路",
+                "en": "Sixin Middle Road"
+            },
+            "fangcao_road":
+            {
+                "zh": "芳草路",
+                "en": "Fangcao Road"
+            },
+            "gangkoucun":
+            {
+                "zh": "港口村",
+                "en": "Gangkoucun"
+            },
+            "dingjiazui":
+            {
+                "zh": "丁家咀",
+                "en": "Dingjiazui"
+            },
+            "hangang":
+            {
+                "zh": "汉钢",
+                "en": "Hangang"
+            },
+            "hanxi_road":
+            {
+                "zh": "汉西路",
+                "en": "Hanxi Road"
+            },
+            "huanghai_road":
+            {
+                "zh": "黄海路",
+                "en": "Huanghai Road"
+            },
+            "fuxingcun":
+            {
+                "zh": "复兴村",
+                "en": "Fuxingcun"
+            },
+            "hankou_railway_station_2":
+            {
+                "zh": "汉口站北广场",
+                "en": "North Square of Hankou Railway Station"
+            },
+            "houhu_4th_road":
+            {
+                "zh": "后湖四路",
+                "en": "Houhu 4th Road"
+            },
+            "baibuting":
+            {
+                "zh": "百步亭",
+                "en": "Baibuting"
+            },
+            "xinchun":
+            {
+                "zh": "新春",
+                "en": "Xinchun"
+            },
+            "beiyangqiao":
+            {
+                "zh": "北洋桥",
+                "en": "Beiyangqiao"
+            },
+            "tiepuling":
+            {
+                "zh": "铁铺岭",
+                "en": "Tiepuling"
+            },
+            "wanjiazui":
+            {
+                "zh": "万家咀",
+                "en": "Wanjiazui"
+            },
+            "baiyushan":
+            {
+                "zh": "白玉山",
+                "en": "Baiyushan"
+            },
+            "jiangguo_road":
+            {
+                "zh": "江国路",
+                "en": "Jiangguo Road"
+            },
+            "meilin":
+            {
+                "zh": "梅林",
+                "en": "Meilin"
+            },
+            "tangshan":
+            {
+                "zh": "汤山",
+                "en": "Tangshan"
+            },
+            "gongye_road":
+            {
+                "zh": "工业路",
+                "en": "Gongye Road"
+            },
+            "hanyang_railway_station_2":
+            {
+                "zh": "汉阳站",
+                "en": "Hanyang Railway Station"
+            },
+            "yangluo_street":
+            {
+                "zh": "阳逻街",
+                "en": "Yangluo Street"
+            },
+            "chaipohu":
+            {
+                "zh": "柴泊湖",
+                "en": "Chaipohu"
+            },
+            "yangluozhixin":
+            {
+                "zh": "阳逻之心",
+                "en": "Yangluozhixin"
+            }
+        }
+    },
+    "color_scheme":
+    {}
+}
