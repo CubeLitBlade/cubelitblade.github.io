@@ -10,50 +10,150 @@
 
 <body>
     <h1>也许······该向前走了</h1>
-    <p>我们注意到，您正尝试使用Internet Explorer访问此页面。</p>
-    <h2>Microsoft已停止对Internet Explorer的支持</h2>
-    <p>早在2022年6月15日，Microsoft就已停止对所有版本的Internet
-        Explorer的支持。这意味着，在此之后，除非您需要访问一些过分老旧的页面，否则，在任何情况下都不推荐使用Internet Explorer了。</p>
-    <p>我们不得不承认，Internet Explorer带领我们见证了互联网从起步到繁荣的将近三十个年头，也一度凭借其独特的优势占据了大量的份额。但时过境迁，如今的Internet
-        Explorer在支持现代Web标准和技术方面远远落后于其他现代浏览器，这导致开发者需要花费更多时间和精力来解决兼容性问题，影响开发效率和用户体验。而且，Internet
-        Explorer在安全性方面存在多个漏洞和问题，这些问题可能被恶意攻击者利用来进行网络攻击。此外，相比现代浏览器，Internet
-        Explorer在性能方面表现不佳，包括加载速度、渲染速度和JavaScript执行速度等方面。从当下的种种情形来看，该向这个老家伙告别了。</p>
+    <h3>我们注意到，您正尝试使用 Internet Explorer 访问此页面。</h3>
+    <h2>Microsoft 已停止对 Internet Explorer 的支持</h2>
+    <p>早在2022年6月15日， Microsoft 就已停止对所有版本的 Internet
+        Explorer 的支持。这意味着，在此之后，除非您需要访问一些过分老旧的页面，否则，在任何情况下都不推荐使用 Internet Explorer 了。</p>
+    <p>我们不得不承认， Internet Explorer 带领我们见证了互联网从起步到繁荣的将近三十个年头，也一度凭借其独特的优势占据了大量的份额。但时过境迁，如今的 Internet
+        Explorer 在支持现代 Web 标准和技术方面远远落后于其他现代浏览器，这导致开发者需要花费更多时间和精力来解决兼容性问题，影响开发效率和用户体验。而且， Internet
+        Explorer 在安全性方面存在多个漏洞和问题，这些问题可能被恶意攻击者利用来进行网络攻击。此外，相比现代浏览器， Internet
+        Explorer 在性能方面表现不佳，包括加载速度、渲染速度和 JavaScript 执行速度等方面。从当下的种种情形来看，该向这个老家伙告别了。</p>
     <h2>我为什么会看到此页面？</h2>
-    <p>我们注意到您正在使用Internet Explorer，或者部分现代浏览器的“Internet Explorer模式”（也被称为“兼容模式”）访问此页面。我们的网页已经不再支持Internet
-        Explorer，因此我们将这些内容告知于您。</p>
+    <p>我们注意到您正在使用Internet Explorer，或者部分现代浏览器的“ Internet Explorer 模式”（也被称为“兼容模式”）访问此页面。我们的网页已经不再支持 Internet
+        Explorer ，因此我们将这些内容告知于您。</p>
     <h2>我该怎么做？</h2>
-    <p>如果您正在使用Internet Explorer，请更换您的浏览器，例如Google Chrome或者Microsoft Edge。如果您并没有使用Internet
-        Explorer却看到了这个页面，请尝试关闭浏览器的“Internet Explorer模式”或者“兼容模式”后，重新加载此前尝试访问的页面。</p>
+    <p>如果您正在使用 Internet Explorer ，请更换您的浏览器。如果您并没有使用 Internet
+        Explorer 却看到了这个页面，请尝试关闭浏览器的“ Internet Explorer 模式”或者“兼容模式”后，<a id="reload-link">重新加载</a>您所请求的页面。</p>
+    <h2>推荐使用的现代浏览器</h2>
+    <p>我们推荐使用以下几款浏览器，您可以直接单击下面的链接跳转到这些推荐的浏览器的下载页面。当然，您也可以稍后自己选择一款合适的浏览器。</p>
+    <div class="alternate-broswers">
+        <a href="https://google.cn/intl/zh-CN/chrome/fallback/" target="_blank" rel="noopener norefferer"
+            class="alternate-broswer-link"><img src="https://google.cn/chrome/static/images/favicons/favicon-96x96.png"
+                title="Google Chrome" class="alternate-broswer-icon" />Google
+            Chrome</a>
+        <a href="https://www.microsoft.com/en-us/edge/server/download?form=MA13FJ" target="_blank"
+            rel="noopener norefferer" class="alternate-broswer-link"><img
+                src="https://edgestatic.azureedge.net/welcome/static/favicon.png" title="Microsoft Edge"
+                class="alternate-broswer-icon">Microsoft
+            Edge</a>
+        <a href="https://www.firefox.com.cn/" target="_blank" rel="noopener norefferer"
+            class="alternate-broswer-link"><img
+                src="https://www.firefox.com.cn/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png"
+                title="Mozilla Firefox" class="alternate-broswer-icon">Mozilla Firefox</a>
+    </div>
+
+    <script>
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        const originalURL = getQueryParam('redirect');
+        if (originalURL) {
+            const decodedURL = decodeURIComponent(originalURL);
+            const reloadLink = document.getElementById('reload-link');
+            reloadLink.href = decodedURL;
+        }
+    </script>
 </body>
 
 <style>
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Thin.ttf") format(truetype);
+        font-weight: 100;
+    }
+
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Light.ttf") format(truetype);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Regular.ttf") format(truetype);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Medium.ttf") format(truetype);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Bold.ttf") format(truetype);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: "HarmonyOS Sans SC";
+        src: url("../assets/fonts/HarmonyOS_Sans_SC_Black.ttf") format(truetype);
+        font-weight: 900;
+    }
+
     body {
         max-width: 1024px;
         margin: 0 auto;
-        font-family: 'Microsoft YaHei', sans-serif;
+        font-family: "HarmonyOS Sans SC";
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 2rem;
         line-height: 1.5;
-        font-weight: 500;
-        color: #09c;
-        padding-top: 10px;
+        font-weight: 700;
+        padding: 0.25rem;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 1.5rem;
         line-height: 1.5;
-        font-weight: 300;
-        color: #09c;
-        border-top: 1px solid #ccc;
-        padding-top: 10px;
+        font-weight: 500;
+        padding: 0.25rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 0.25rem;
     }
 
     p {
-        font-size: 15px;
+        font-size: 1rem;
         line-height: 1.5;
-        font-weight: 100;
+        font-weight: 300;
+        padding: 0.25rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: hsla(195, 100%, 40%, 1);
+        transition: 0.4s;
+    }
+
+    a:hover {
+        background-color: hsla(195, 100%, 60%, 0.2);
+    }
+
+    .alternate-broswers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .alternate-broswer-link {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .alternate-broswer-icon {
+        margin-right: 0.5rem;
+        width: 1.25rem;
+        height: 1.25rem;
     }
 </style>
 

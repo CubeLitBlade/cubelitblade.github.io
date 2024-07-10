@@ -41,37 +41,37 @@
 /* 配置字体，在此选择了可以免费商用的 Harmony OS Sans SC */
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Thin.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Thin.ttf");
     font-weight: 100;
 }
 
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Light.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Light.ttf");
     font-weight: 300;
 }
 
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Regular.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Medium.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Medium.ttf");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Bold.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "HarmonyOS Sans SC";
-    src: url("./font/HarmonyOS_Sans_SC_Black.ttf");
+    src: url("../assets/fonts/HarmonyOS_Sans_SC_Black.ttf");
     font-weight: 900;
 }
 
