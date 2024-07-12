@@ -1,9 +1,9 @@
 /* 
- * 在此定义 HarmonyOS Sans SC 的切片样式路径。
- * 目前已经适配 woff2、woff、eot 和 svg 格式，满足大部分浏览器的需求。
- * HarmonyOS Sans SC 是一款免费商用字体。由汉仪和华为联合开发。
- * 对于 woff2 的切片技术支持，感谢中文网字计划 https: //chinese-font.netlify.app/
- * woff 格式、eot 格式和 svg 格式为自行适配。
+ * 以下定义了 HarmonyOS Sans SC 字体的切片样式路径。
+ * 本样式已适配 woff2、woff、eot 和 svg 格式，以满足大部分浏览器的需求。
+ * HarmonyOS Sans SC 是由汉仪和华为联合开发的免费商用字体。
+ * 对于 woff2 格式的切片技术支持，特此感谢中文网字计划 (https://chinese-font.netlify.app/)。
+ * woff、eot 和 svg 格式的切片是自行适配的。
  */
 
 
