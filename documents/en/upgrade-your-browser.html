@@ -48,6 +48,134 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upgrade your browser</title>
+    <style>
+      /* 此页面相对于其他页面较为特殊。此页面主要在 Internet Explorer 上显示， 因此单独适配样式。*/
+      /* 设置网页调用的字体顺序。HarmonyOS Sans SC 的字体定义存储在 https://cubelitblade.github.io/css/fonts.css/ */
+      body {
+        padding: 0 15rem 0 15rem;
+        margin: 0 auto;
+        font-family: "HarmonyOS Sans SC", Inter, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+          "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      }
+
+      /* 设置一级标题的属性。 */
+      h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: 700;
+      }
+
+      /* 设置二级标题的属性。 */
+      h2 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 500;
+        border-bottom: 3px solid #ccc;
+      }
+
+      /* 设置段落的属性。 */
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 300;
+      }
+
+      /* 设置链接的属性。 */
+      a {
+        text-decoration: none;
+        color: hsla(195, 100%, 40%, 1);
+        transition: 0.4s;
+      }
+
+      /* 设置链接鼠标悬停的样式。 */
+      a:hover {
+        background-color: hsla(195, 100%, 60%, 0.2);
+      }
+
+      /* 设置推荐浏览器部分的布局。 */
+      .alternate-broswers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* 设置推荐浏览器部分的链接的布局。 */
+      .alternate-broswer-link {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+      }
+
+      /* 设置推荐浏览器部分的图标格式。 */
+      .alternate-broswer-icon {
+        margin-right: 0.5rem;
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+
+      /* 免责声明的样式。 */
+      .disclaimer {
+        text-align: left;
+        font-size: 0.75rem;
+        color: gray;
+      }
+
+      /* 设置摘要的属性。 */
+      .summary {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 400;
+      }
+
+      #switch-language-link {
+        margin-left: auto;
+      }
+
+      /* 对于窄屏设备进行独立适配。 */
+      @media (max-width: 1024px) {
+        /* 减小元素间的间距。 */
+        body {
+          padding: 0.5rem;
+        }
+
+        /* 减小字体的大小。 */
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+
+        p {
+          font-size: 0.875rem;
+        }
+
+        .alternate-broswers {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .alternate-broswer-link {
+          padding: 1rem;
+          flex: 1 1 100%;
+        }
+
+        .alternate-broswer-icon {
+          width: 1rem;
+          height: 1rem;
+        }
+
+        .summary {
+          font-size: 1rem;
+        }
+      }
+    </style>
     <script>
       // 获取URL查询参数的函数。
       function getQueryParam(param) {
@@ -198,133 +326,4 @@
       for more details. Thank you for your understanding and support.
     </p>
   </footer>
-
-  <style>
-    /* 此页面相对于其他页面较为特殊。此页面主要在 Internet Explorer 上显示， 因此单独适配样式。*/
-    /* 设置网页调用的字体顺序。HarmonyOS Sans SC 的字体定义存储在 https://cubelitblade.github.io/css/fonts.css/ */
-    body {
-      padding: 0 15rem 0 15rem;
-      margin: 0 auto;
-      font-family: "HarmonyOS Sans SC", Inter, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
-    }
-
-    /* 设置一级标题的属性。 */
-    h1 {
-      font-size: 2rem;
-      line-height: 1.5;
-      font-weight: 700;
-    }
-
-    /* 设置二级标题的属性。 */
-    h2 {
-      font-size: 1.5rem;
-      line-height: 1.5;
-      font-weight: 500;
-      border-bottom: 3px solid #ccc;
-    }
-
-    /* 设置段落的属性。 */
-    p {
-      font-size: 1rem;
-      line-height: 1.5;
-      font-weight: 300;
-    }
-
-    /* 设置链接的属性。 */
-    a {
-      text-decoration: none;
-      color: hsla(195, 100%, 40%, 1);
-      transition: 0.4s;
-    }
-
-    /* 设置链接鼠标悬停的样式。 */
-    a:hover {
-      background-color: hsla(195, 100%, 60%, 0.2);
-    }
-
-    /* 设置推荐浏览器部分的布局。 */
-    .alternate-broswers {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /* 设置推荐浏览器部分的链接的布局。 */
-    .alternate-broswer-link {
-      display: flex;
-      align-items: center;
-      padding: 1.5rem;
-    }
-
-    /* 设置推荐浏览器部分的图标格式。 */
-    .alternate-broswer-icon {
-      margin-right: 0.5rem;
-      width: 1.25rem;
-      height: 1.25rem;
-    }
-
-    /* 免责声明的样式。 */
-    .disclaimer {
-      text-align: left;
-      font-size: 0.75rem;
-      color: gray;
-    }
-
-    /* 设置摘要的属性。 */
-    .summary {
-      display: flex;
-      flex-direction: row;
-      font-size: 1.25rem;
-      line-height: 1.5;
-      font-weight: 400;
-    }
-
-    #switch-language-link {
-      margin-left: auto;
-    }
-
-    /* 对于窄屏设备进行独立适配。 */
-    @media (max-width: 1024px) {
-      /* 减小元素间的间距。 */
-      body {
-        padding: 0.5rem;
-      }
-
-      /* 减小字体的大小。 */
-      h1 {
-        font-size: 1.5rem;
-      }
-
-      h2 {
-        font-size: 1.25rem;
-      }
-
-      p {
-        font-size: 0.875rem;
-      }
-
-      .alternate-broswers {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-      .alternate-broswer-link {
-        padding: 1rem;
-        flex: 1 1 100%;
-      }
-
-      .alternate-broswer-icon {
-        width: 1rem;
-        height: 1rem;
-      }
-
-      .summary {
-        font-size: 1rem;
-      }
-    }
-  </style>
 </html>
