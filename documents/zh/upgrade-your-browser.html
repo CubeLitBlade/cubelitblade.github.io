@@ -1,318 +1,170 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <!-------------------------- INERTNET EXPLORER IS OUTDATED. PLEASE STOP USING IT. -------------------------->
-  <!-- +++++++++++**++++++*++*****+**+++*+++*++++++++*+++******+++*+++++++++**++*++****+++++*****++*++*++** -->
-  <!-- ++++++*++*****+++++**++*+*****++*+++++*+++++++*+++***+**++++*++****+**++++******+++++*+++++***++*+** -->
-  <!-- +++*+**++***+*****++*****+****++++*++*+++++++++++*+++**++++++++++++=========+*****+**+**+++**+**+*** -->
-  <!-- *+++***+++*++++**+++++*******++++++*++++*+++*+****++++*+++++++====---========-++*++++++++*++++****** -->
-  <!-- +++++++++++++++**++++++**++**+++++++*++++++++++++++++++++++===---===++++++==+=-=+*+++*+++*+++++++*** -->
-  <!-- ++++*+++++++++*+++++++*+++++*++++*+++++++*******+++++++++==---=+++***+**+**+=+--+**++**++++++++**++* -->
-  <!-- ++++++++**++++**+**+++++****+++++++****##********+++++++++=====++++*++++**++=+=:+++*+++***++++***+++ -->
-  <!-- +++++*+++*+++++***+++*++*+++++++**#####*********++++++++++=========++*++++++=+-:+++*+++++****+++**++ -->
-  <!-- +++++++++++++*++++++**+++++*++*######*****+=+**+++++++++++===========+++++++=+:-+**+**++++***+++++*+ -->
-  <!-- *+*+++***++*++**++*****++*++*#########*+=-=+**++++++++++++===========-=++**+==-++++**+*++++**+*++*** -->
-  <!-- ++++++++******++*********+*########*+=--+****+++++++++++++=============-=+++++++*+*+++++*+**++****** -->
-  <!-- +*****+*****++****+*++**+*#######*+--=+*******++++++++++++==============--=+*++*++++++++**++*+++***+ -->
-  <!-- ++++**+**++**++********+######*+=--=*******+==-=========++================-++++*+++*+++++*++**++***+ -->
-  <!-- +++++++*+******+**+**++*####*+=--+*******+---=++***++++===+================-=**+++++++*+++++++**+++* -->
-  <!-- +++++++++********++**+*#***+--=+******+++:-=+**+++**+**++==================--++++********++**+***+++ -->
-  <!-- +++**++*+++++****++*++***+--=++****+++++=:=++++++++++++++==+================-=++++****++**++****++** -->
-  <!-- ++++++++*+++**++****++*+=-=+++**+++++++++++++++++++++=======================--+*+****+****++++***+** -->
-  <!-- *+++*+++++**++++****+++-=+++**+++++++++++++++++++++=========================-:=+++++****+**+++*****+ -->
-  <!-- **+**+**+++*++*++*+**+++*+++++++++++++++++++++++============================-:=+++++***+**+*++++**** -->
-  <!-- *+*+++++++**+*+++++*++**++++++++++++++++++++++++=========================----:+*+******++*++*++++*** -->
-  <!-- +**+***+*++++*++++***+*+++++++++++++++++---===================================++**+*******++++++++** -->
-  <!-- ++*+++++++++++++**+*+++++=++++++++++++++-.=++++++++++++++++======++=======++++*****+****+++++++++*** -->
-  <!-- ++++++++*++*++++*++**++=================+::+*************++=======---------:=++**++++**+**+**++*++++ -->
-  <!-- +++**+++**+++*******++====================-:=+**++*****+++==--------------::=++*****+****++++****+** -->
-  <!-- ++*+++++++++++******+=======================--==++++++++==-=-------------::=++*++*******++***+***++* -->
-  <!-- +++++****++**+***+++====================================---------------::-+******++**+********++*+++ -->
-  <!-- +**+***************+=====-:-============================--------------::=+****+********+******+*+*++ -->
-  <!-- **************++**+=---==-===-========================--------------::-+**++*+**+++***********++**** -->
-  <!-- +++*****+******+**+----=-=+++==-=====================------------::--=+*****+++**++++*******++*+**** -->
-  <!-- +*+++++*+****++**++---==-=++++++===================------------:--=+**+++++******+++++++*++*+*++**** -->
-  <!-- ******++*+**+**++++------+*+++***++====-==========------------==+******+*+***+***+++++*+++***+**+**+ -->
-  <!-- +**+********+**++++=---::=*********+++=====--===--==----====++*****+++*****+**+++++**+*++*++*+**++*+ -->
-  <!-- +**+***++*******++++----:-==++++++++++=====+++++++++++++++++***+***********+**+++++++******++*++*+** -->
-  <!-- +***++*****+**++****+=----==============++**********+++++++++**++******+*+++***+++++*****+++****++++ -->
-  <!-- ***++++***+++*+**+****+==--------===++*******+*++++++++++++++**+++**++++********++++**+++++**+*+**++ -->
-  <!-- +++**+**+************+***+++++++******++*******+++***++*++++****++***++****++**+***++++*+**+++*++*++ -->
-  <!-- *************+*******+*++++**+++++**+***+********++*+*++++++*****+*********+++*+**+*******+***++++++ -->
+<!-------------------------- INERTNET EXPLORER IS OUTDATED. PLEASE STOP USING IT. -------------------------->
+<!-- +++++++++++**++++++*++*****+**+++*+++*++++++++*+++******+++*+++++++++**++*++****+++++*****++*++*++** -->
+<!-- ++++++*++*****+++++**++*+*****++*+++++*+++++++*+++***+**++++*++****+**++++******+++++*+++++***++*+** -->
+<!-- +++*+**++***+*****++*****+****++++*++*+++++++++++*+++**++++++++++++=========+*****+**+**+++**+**+*** -->
+<!-- *+++***+++*++++**+++++*******++++++*++++*+++*+****++++*+++++++====---========-++*++++++++*++++****** -->
+<!-- +++++++++++++++**++++++**++**+++++++*++++++++++++++++++++++===---===++++++==+=-=+*+++*+++*+++++++*** -->
+<!-- ++++*+++++++++*+++++++*+++++*++++*+++++++*******+++++++++==---=+++***+**+**+=+--+**++**++++++++**++* -->
+<!-- ++++++++**++++**+**+++++****+++++++****##********+++++++++=====++++*++++**++=+=:+++*+++***++++***+++ -->
+<!-- +++++*+++*+++++***+++*++*+++++++**#####*********++++++++++=========++*++++++=+-:+++*+++++****+++**++ -->
+<!-- +++++++++++++*++++++**+++++*++*######*****+=+**+++++++++++===========+++++++=+:-+**+**++++***+++++*+ -->
+<!-- *+*+++***++*++**++*****++*++*#########*+=-=+**++++++++++++===========-=++**+==-++++**+*++++**+*++*** -->
+<!-- ++++++++******++*********+*########*+=--+****+++++++++++++=============-=+++++++*+*+++++*+**++****** -->
+<!-- +*****+*****++****+*++**+*#######*+--=+*******++++++++++++==============--=+*++*++++++++**++*+++***+ -->
+<!-- ++++**+**++**++********+######*+=--=*******+==-=========++================-++++*+++*+++++*++**++***+ -->
+<!-- +++++++*+******+**+**++*####*+=--+*******+---=++***++++===+================-=**+++++++*+++++++**+++* -->
+<!-- +++++++++********++**+*#***+--=+******+++:-=+**+++**+**++==================--++++********++**+***+++ -->
+<!-- +++**++*+++++****++*++***+--=++****+++++=:=++++++++++++++==+================-=++++****++**++****++** -->
+<!-- ++++++++*+++**++****++*+=-=+++**+++++++++++++++++++++=======================--+*+****+****++++***+** -->
+<!-- *+++*+++++**++++****+++-=+++**+++++++++++++++++++++=========================-:=+++++****+**+++*****+ -->
+<!-- **+**+**+++*++*++*+**+++*+++++++++++++++++++++++============================-:=+++++***+**+*++++**** -->
+<!-- *+*+++++++**+*+++++*++**++++++++++++++++++++++++=========================----:+*+******++*++*++++*** -->
+<!-- +**+***+*++++*++++***+*+++++++++++++++++---===================================++**+*******++++++++** -->
+<!-- ++*+++++++++++++**+*+++++=++++++++++++++-.=++++++++++++++++======++=======++++*****+****+++++++++*** -->
+<!-- ++++++++*++*++++*++**++=================+::+*************++=======---------:=++**++++**+**+**++*++++ -->
+<!-- +++**+++**+++*******++====================-:=+**++*****+++==--------------::=++*****+****++++****+** -->
+<!-- ++*+++++++++++******+=======================--==++++++++==-=-------------::=++*++*******++***+***++* -->
+<!-- +++++****++**+***+++====================================---------------::-+******++**+********++*+++ -->
+<!-- +**+***************+=====-:-============================--------------::=+****+********+******+*+*++ -->
+<!-- **************++**+=---==-===-========================--------------::-+**++*+**+++***********++**** -->
+<!-- +++*****+******+**+----=-=+++==-=====================------------::--=+*****+++**++++*******++*+**** -->
+<!-- +*+++++*+****++**++---==-=++++++===================------------:--=+**+++++******+++++++*++*+*++**** -->
+<!-- ******++*+**+**++++------+*+++***++====-==========------------==+******+*+***+***+++++*+++***+**+**+ -->
+<!-- +**+********+**++++=---::=*********+++=====--===--==----====++*****+++*****+**+++++**+*++*++*+**++*+ -->
+<!-- +**+***++*******++++----:-==++++++++++=====+++++++++++++++++***+***********+**+++++++******++*++*+** -->
+<!-- +***++*****+**++****+=----==============++**********+++++++++**++******+*+++***+++++*****+++****++++ -->
+<!-- ***++++***+++*+**+****+==--------===++*******+*++++++++++++++**+++**++++********++++**+++++**+*+**++ -->
+<!-- +++**+**+************+***+++++++******++*******+++***++*++++****++***++****++**+***++++*+**+++*++*++ -->
+<!-- *************+*******+*++++**+++++**+***+********++*+*++++++*****+*********+++*+**+*******+***++++++ -->
 
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="https://cubelitblade.github.io/assets/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cubelitblade.github.io/css/fonts.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>更新您的浏览器</title>
-    <style>
-      /* 此页面相对于其他页面较为特殊。此页面主要在 Internet Explorer 上显示， 因此单独适配样式。*/
-      /* 设置网页调用的字体顺序。HarmonyOS Sans SC 的字体定义存储在 https://cubelitblade.github.io/css/fonts.css/ */
-      body {
-        padding: 0 15rem 0 15rem;
-        margin: 0 auto;
-        font-family: "HarmonyOS Sans SC", Inter, -apple-system,
-          BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-          "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="https://cubelitblade.github.io/assets/favicon.ico" />
+  <link rel="stylesheet" href="https://cubelitblade.github.io/css/fonts.css" />
+  <link rel="stylesheet" href="https://cubelitblade.github.io/css/IE-support.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>更新您的浏览器</title>
+
+  <!-- Internet Explorer 9 之前的版本对 HTML 5 支持较差，使用条件编译引用 html5shiv 补全这一支持。 -->
+  <!-- 以下代码仅在 Internet Explorer 9 之前的版本被解析。其余浏览器解析为注释。 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.bootcdn.net/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!-- 获取重定向自的链接，并且更新页面内的超链接。 -->
+  <script>
+    // 获取URL查询参数的函数。
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // 更新链接的href属性的函数。
+    function updateReloadLink() {
+      const originalURL = getQueryParam("redirect");
+      if (originalURL) {
+        const decodedURL = decodeURIComponent(originalURL);
+        const reloadLink = document.getElementById("reload-link");
+        reloadLink.href = decodedURL;
+        const switchLanguageLink = document.getElementById(
+          "switch-language-link"
+        );
+        switchLanguageLink.href =
+          "https://cubelitblade.github.io/documents/en/upgrade-your-browser.html?redirect=" +
+          decodedURL;
       }
+    }
 
-      /* 设置脚注的格式。 */
-      footer {
-        text-align: center;
-      }
+    // 在文档加载完成后，调用updateReloadLink函数。
+    document.addEventListener("DOMContentLoaded", updateReloadLink);
+  </script>
+</head>
 
-      /* 设置一级标题的属性。 */
-      h1 {
-        font-size: 2rem;
-        line-height: 1.5;
-        font-weight: 700;
-      }
+<body>
+  <h1>更新您的浏览器</h1>
+  <div class="summary">
+    <span>您所请求的页面已不支持 Internet Explorer 。</span>
+    <a id="switch-language-link" title="前往英文支持页面。&#10;Go to the English support page."
+      href="https://cubelitblade.github.io/documents/en/upgrade-your-browser.html">EN</a>
+  </div>
+  <br />
+  <h2>Microsoft 已停止对 Internet Explorer 的支持</h2>
+  <p>
+    <time datetime="2022-6-15">2022年6月15日</time>， Microsoft 终止了对所有版本的 Internet Explorer 的支持。
+    这意味着，除非您需要访问一些过分老旧的，仅兼容 IE 的页面，否则，在任何情况下都不推荐使用 Internet Explorer 了。Internet
+    Explorer 不支持许多现代的 Web 标准，如今又得不到技术支持，这可能导致您所请求的页面显示不正常。更换浏览器以正确显示您所请求的页面。
+  </p>
+  <h2>我为什么会看到此页面？</h2>
+  <p>
+    您正在尝试使用 Internet Explorer 或者某些浏览器的 Internet Explorer 模式请求页面。您所请求的页面不支持 Internet Explorer，因此我们将这些信息告知与您。
+  </p>
+  <h2>我该怎么做？</h2>
+  <p>
+    如果您正在使用 Internet Explorer，请更换您的浏览器。如果您并没有使用
+    Internet Explorer 却看到了这个页面，请尝试关闭浏览器的“Internet Explorer
+    模式”或者“兼容模式”后，<a id="reload-link">重新加载</a>您所请求的页面。
+  </p>
+  <h2>推荐使用的现代浏览器</h2>
+  <p>
+    单击以下链接以重定向到相应浏览器的下载页面，或者您也可以稍后自行选择一款合适的浏览器。
+  </p>
 
-      /* 设置二级标题的属性。 */
-      h2 {
-        font-size: 1.5rem;
-        line-height: 1.5;
-        font-weight: 500;
-        border-bottom: 3px solid #ccc;
-      }
+  <!-- 加载推荐的浏览器，这里给出了 Google Chrome、Microsoft Edge 和 Mozilla Firefox。 -->
+  <!-- Internet Explorer 低版本不支持 flex ，考虑到此内容的语义可以是表格内容，使用表格进行布局。 -->
+  <table class="alternate-broswers">
+    <tbody>
+      <tr>
+        <td><a href="https://google.cn/intl/zh-CN/chrome/fallback/" target="_blank" rel="noopener norefferer"
+            class="alternate-broswer-link"><img src="https://cubelitblade.github.io/assets/svg/chrome-logo.svg"
+              alt="Google Chrome" draggable="false" class="alternate-broswer-icon" id="chrome-logo" />Google Chrome</a>
+        </td>
+        <td><a href="https://www.microsoft.com/en-us/edge/server/download?form=MA13FJ" target="_blank"
+            rel="noopener norefferer" class="alternate-broswer-link"><img
+              src="https://cubelitblade.github.io/assets/svg/Microsoft_Edge_logo_2019.svg" alt="Microsoft Edge"
+              draggable="false" class="alternate-broswer-icon" id="edge-logo" />Microsoft Edge</a>
+        </td>
+        <td><a href="https://www.mozilla.org/zh-CN/firefox/new/?redirect_source=firefox-com/" target="_blank"
+            rel="noopener norefferer" class="alternate-broswer-link"><img
+              src="https://cubelitblade.github.io/assets/svg/Firefox_logo_2019.svg" alt="Mozilla Firefox"
+              draggable="false" class="alternate-broswer-icon" id="firefox-logo" />Mozilla Firefox</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-      /* 设置段落的属性。 */
-      p {
-        font-size: 1rem;
-        line-height: 1.5;
-        font-weight: 300;
-      }
 
-      /* 设置链接的属性。 */
-      a {
-        text-decoration: none;
-        color: hsla(195, 100%, 40%, 1);
-        transition: 0.4s;
-      }
-
-      /* 设置链接鼠标悬停的样式。 */
-      a:hover {
-        background-color: hsla(195, 100%, 60%, 0.2);
-      }
-
-      /* 设置推荐浏览器部分的布局。 */
-      .alternate-broswers {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      /* 设置推荐浏览器部分的链接的布局。 */
-      .alternate-broswer-link {
-        display: flex;
-        align-items: center;
-        padding: 1.5rem;
-      }
-
-      /* 设置推荐浏览器部分的图标格式。 */
-      .alternate-broswer-icon {
-        margin-right: 0.5rem;
-        width: 1.25rem;
-        height: 1.25rem;
-      }
-
-      /* 免责声明的样式。 */
-      .disclaimer {
-        text-align: left;
-        font-size: 0.75rem;
-        color: gray;
-      }
-
-      /* 设置摘要的属性。 */
-      .summary {
-        display: flex;
-        flex-direction: row;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        font-weight: 400;
-      }
-
-      #switch-language-link {
-        margin-left: auto;
-      }
-
-      /* 对于窄屏设备进行独立适配。 */
-      @media (max-width: 1024px) {
-        /* 减小元素间的间距。 */
-        body {
-          padding: 0.5rem;
-        }
-
-        /* 减小字体的大小。 */
-        h1 {
-          font-size: 1.5rem;
-        }
-
-        h2 {
-          font-size: 1.25rem;
-        }
-
-        p {
-          font-size: 0.875rem;
-        }
-
-        .alternate-broswers {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-        }
-
-        .alternate-broswer-link {
-          padding: 1rem;
-          flex: 1 1 100%;
-        }
-
-        .alternate-broswer-icon {
-          width: 1rem;
-          height: 1rem;
-        }
-
-        .summary {
-          font-size: 1rem;
+  <!-- 由于 Internet Explorer 9 之前的版本不支持 svg 矢量图，使用条件编译将其替换为 gif （IE 6 不支持 png）。 -->
+  <!-- 以下代码仅在 Internet Explorer 9 之前的版本被解析。其余浏览器解析为注释。 -->
+  <!--[if lt IE 9]>
+  <script>
+      function swapSVGToGIF() {
+        var chromeLogo = document.getElementById("chrome-logo");
+        var edgeLogo = document.getElementById("edge-logo");
+        var firefoxLogo = document.getElementById("firefox-logo");
+  
+        if (chromeLogo && edgeLogo && firefoxLogo) {
+          chromeLogo.src = "https://cubelitblade.github.io/assets/fallback/chrome-logo.gif";
+          edgeLogo.src = "https://cubelitblade.github.io/assets/fallback/Microsoft_Edge_logo_2019.gif";
+          firefoxLogo.src = "https://cubelitblade.github.io/assets/fallback/Firefox_logo_2019.gif";
         }
       }
-    </style>
-    <script>
-      // 获取URL查询参数的函数。
-      function getQueryParam(param) {
-        // 创建一个URLSearchParams对象，解析当前页面URL的查询字符串。
-        const urlParams = new URLSearchParams(window.location.search);
-        // 返回与param对应的参数值。
-        return urlParams.get(param);
-      }
-
-      // 更新链接的href属性的函数。
-      function updateReloadLink() {
-        // 调用getQueryParam函数获取名为'redirect'的查询参数的值。
-        const originalURL = getQueryParam("redirect");
-        // 如果originalURL存在
-        if (originalURL) {
-          // 对originalURL进行URL解码。
-          const decodedURL = decodeURIComponent(originalURL);
-          // 找到ID为'reload-link'的HTML元素。
-          const reloadLink = document.getElementById("reload-link");
-          reloadLink.href = decodedURL;
-          // 找到ID为'reload-link'的HTML元素。
-          const switchLanguageLink = document.getElementById(
-            "switch-language-link"
-          );
-          switchLanguageLink.href =
-            "https://cubelitblade.github.io/documents/en/upgrade-your-browser.html?redirect=" +
-            decodedURL;
-        }
-      }
-
-      // 在文档加载完成后，调用updateReloadLink函数。
-      document.addEventListener("DOMContentLoaded", updateReloadLink);
+  
+      window.onload = swapSVGToGIF;
     </script>
-  </head>
+  <![endif]-->
+</body>
 
-  <body>
-    <h1>请更新您的浏览器</h1>
-    <div class="summary">
-      <span>我们注意到，您正尝试使用 Internet Explorer 访问此页面。</span>
-      <a
-        id="switch-language-link"
-        title="前往英文支持页面。&#10;Go to the English support page."
-        href="https://cubelitblade.github.io/documents/en/upgrade-your-browser.html"
-        >EN</a
-      >
-    </div>
-    <br />
-    <h2>Microsoft 已停止对 Internet Explorer 的支持</h2>
-    <p>
-      早在<time datetime="2022-6-15">2022年6月15日</time>， Microsoft
-      就已停止对所有版本的 Internet Explorer
-      的支持。这意味着，在此之后，除非您需要访问一些过分老旧的页面，否则，在任何情况下都不推荐使用
-      Internet Explorer 了。
-    </p>
-    <p>
-      我们不得不承认，Internet Explorer
-      带领我们见证了互联网从起步到繁荣的将近三十个年头，也一度凭借其独特的优势占据了大量的份额。但时过境迁，如今的
-      Internet Explorer 在支持现代 Web
-      标准和技术方面远远落后于其他现代浏览器，这导致开发者需要花费更多时间和精力来解决兼容性问题，影响开发效率和用户体验。而且，
-      Internet Explorer
-      在安全性方面存在多个漏洞和问题，这些问题可能被恶意攻击者利用来进行网络攻击。此外，相比现代浏览器，Internet
-      Explorer 在性能方面表现不佳，包括加载速度、渲染速度和 JavaScript
-      执行速度等方面。从当下的种种情形来看，该向这个老家伙告别了。
-    </p>
-    <h2>我为什么会看到此页面？</h2>
-    <p>
-      我们注意到您正在使用 Internet Explorer，或者部分现代浏览器的“Internet
-      Explorer 模式”（也被称为“兼容模式”）访问此页面。我们的网页已经不再支持
-      Internet Explorer，因此我们将这些内容告知于您。
-    </p>
-    <h2>我该怎么做？</h2>
-    <p>
-      如果您正在使用 Internet Explorer，请更换您的浏览器。如果您并没有使用
-      Internet Explorer 却看到了这个页面，请尝试关闭浏览器的”Internet Explorer
-      模式”或者“兼容模式”后，<a id="reload-link">重新加载</a>您所请求的页面。
-    </p>
-    <h2>推荐使用的现代浏览器</h2>
-    <p>
-      我们推荐使用以下几款浏览器，您可以直接单击下面的链接跳转到这些推荐的浏览器的下载页面。当然，您也可以稍后自己选择一款合适的浏览器。
-    </p>
+<footer>
+  <p class="disclaimer">
+    浏览器由 Google、Microsoft 和 Mozilla
+    提供。我们对这些其提供的内容不承担任何责任。使用者应自行判断其内容的准确性和可靠性。我们对由此产生的任何直接或间接损失概不负责。我们对图标的使用遵循相关准则，详情参见
+    <a href="https://github.com/MicrosoftEdge/MSEdge/blob/master/LICENSE.txt">MIT许可证</a>
+    和
+    <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla 公共许可证</a>
+    的副本。
+  </p>
+</footer>
 
-    <!-- 加载推荐的浏览器，这里给出了Google Chrome、Microsoft Edge和Mozilla Firefox。 -->
-    <div class="alternate-broswers">
-      <a
-        href="https://google.cn/intl/zh-CN/chrome/fallback/"
-        target="_blank"
-        rel="noopener norefferer"
-        class="alternate-broswer-link"
-        ><img
-          src="../../assets/svg/chrome-logo.svg"
-          alt="Google Chrome"
-          draggable="false"
-          class="alternate-broswer-icon"
-        />Google Chrome</a
-      >
-      <a
-        href="https://www.microsoft.com/en-us/edge/server/download?form=MA13FJ"
-        target="_blank"
-        rel="noopener norefferer"
-        class="alternate-broswer-link"
-        ><img
-          src="../../assets/svg/Microsoft_Edge_logo_2019.svg"
-          alt="Microsoft Edge"
-          draggable="false"
-          class="alternate-broswer-icon"
-        />Microsoft Edge</a
-      >
-      <a
-        href="https://www.mozilla.org/zh-CN/firefox/new/?redirect_source=firefox-com/"
-        target="_blank"
-        rel="noopener norefferer"
-        class="alternate-broswer-link"
-        ><img
-          src="../../assets/svg/Firefox_logo_2019.svg"
-          alt="Mozilla Firefox"
-          draggable="false"
-          class="alternate-broswer-icon"
-        />Mozilla Firefox</a
-      >
-    </div>
-  </body>
-
-  <footer>
-    <p class="disclaimer">
-      推荐的浏览器由 Google、Microsoft 和 Mozilla
-      提供。我们对这些公司提供的浏览器内容不承担任何责任。使用者应自行判断其内容的准确性和可靠性。我们对由此产生的任何直接或间接损失概不负责。我们对图标的使用遵循相关准则，详情参见
-      <a href="https://github.com/MicrosoftEdge/MSEdge/blob/master/LICENSE.txt"
-        >MIT许可证</a
-      >
-      和
-      <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla 公共许可证</a>
-      的副本。感谢您的理解和支持。
-    </p>
-  </footer>
 </html>

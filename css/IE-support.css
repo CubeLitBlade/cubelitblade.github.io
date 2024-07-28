@@ -23,6 +23,13 @@
     --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
     --vt-c-text-dark-1: var(--vt-c-white);
     --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+    --vt-a-color-light: #09c;
+    --vt-a-color-dark: #3cf;
+
+    --vt-a-hover-background: hsla(195, 100%, 60%, 0.2);
+    --vt-a-hover-background-fallback-light: #d6f5ff;
+    --vt-a-hover-background-fallback-dark: #1d3c46;
 }
 
 :root {
@@ -37,6 +44,8 @@
     --color-text: var(--vt-c-text-light-1);
 
     --section-gap: 160px;
+
+    --color-a: var(--vt-a-color-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +59,8 @@
 
         --color-heading: var(--vt-c-text-dark-1);
         --color-text: var(--vt-c-text-dark-2);
+
+        --color-a: var(--vt-a-color-dark)
     }
 }
 
@@ -108,7 +119,7 @@ p {
 }
 
 a {
-    color: #09c;
+    color: var(--color-a);
     text-decoration: none;
     transition: 0.4s;
 }
@@ -194,6 +205,11 @@ screen\9 {
         font-size: 24px;
     }
 
+    /* IE 不支持 CSS 自定义属性，显式定义。 */
+    a {
+        color: #09c;
+    }
+
     /* IE 8 及更早的版本不支持 hsla 和 rgba，采用静态颜色初步模拟类似的视觉效果。 */
     a:hover {
         background-color: #d6f5ff;
@@ -240,6 +256,10 @@ screen\9 {
         font-size: 24px;
     }
 
+    /* IE 不支持 CSS 自定义属性，显式定义。 */
+    a {
+        color: #09c;
+    }
 }
 
 
@@ -282,6 +302,11 @@ screen\9 {
 
     .summary {
         font-size: 1.5rem;
+    }
+
+    /* IE 不支持 CSS 自定义属性，显式定义。 */
+    a {
+        color: #09c;
     }
 }
 
