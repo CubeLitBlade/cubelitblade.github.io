@@ -1,150 +1,333 @@
 /* 此文档定义了 Internet Explorer 支持页面的样式。 */
+/* 由于 IE 各版本对于 css 的支持状况较为复杂，此文档不可避免地使用了 css hack 的方式解决兼容性问题，对于现代网页并不是好的实现。 */
 
-/* 设置文档主体部分的样式。 */
+/* 配色方案。 */
+
+:root {
+    --vt-c-white: #ffffff;
+    --vt-c-white-soft: #f8f8f8;
+    --vt-c-white-mute: #f2f2f2;
+
+    --vt-c-black: #181818;
+    --vt-c-black-soft: #222222;
+    --vt-c-black-mute: #282828;
+
+    --vt-c-indigo: #2c3e50;
+
+    --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+    --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+    --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+    --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+    --vt-c-text-light-1: var(--vt-c-indigo);
+    --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+    --vt-c-text-dark-1: var(--vt-c-white);
+    --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+:root {
+    --color-background: var(--vt-c-white);
+    --color-background-soft: var(--vt-c-white-soft);
+    --color-background-mute: var(--vt-c-white-mute);
+
+    --color-border: var(--vt-c-divider-light-2);
+    --color-border-hover: var(--vt-c-divider-light-1);
+
+    --color-heading: var(--vt-c-text-light-1);
+    --color-text: var(--vt-c-text-light-1);
+
+    --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: var(--vt-c-black);
+        --color-background-soft: var(--vt-c-black-soft);
+        --color-background-mute: var(--vt-c-black-mute);
+
+        --color-border: var(--vt-c-divider-dark-2);
+        --color-border-hover: var(--vt-c-divider-dark-1);
+
+        --color-heading: var(--vt-c-text-dark-1);
+        --color-text: var(--vt-c-text-dark-2);
+    }
+}
+
+/* 公共样式。 */
+
 body {
-    /* Public style */
-    margin: 0 auto;
-    font-family: "HarmonyOS Sans SC", Inter, -apple-system,
-        BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-
-    /* For IE 9- */
-    padding: 0 240px 0 240px;
-
-    /* For IE 10+ and modern browsers  */
+    min-height: 100vh;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition:
+        color 0.5s,
+        background-color 0.5s;
+    line-height: 1.6;
+    font-family:
+        'HarmonyOS Sans SC',
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     padding: 0 15vw 0 15vw;
 }
 
-/* 设置脚注的格式。 */
 footer {
-    /* Public style */
     text-align: center;
 }
 
-/* 设置一级标题的属性。 */
 h1 {
-    /* Public style */
     line-height: 1.5;
     font-weight: 700;
-
-    /* For IE 9- */
-    font-size: 32px;
-
-    /* For IE 10+ and modern browsers */
     font-size: 2rem;
 }
 
-/* 设置二级标题的属性。 */
 h2 {
-    /* Public style */
     line-height: 1.5;
     font-weight: 500;
     border-bottom: 3px solid #ccc;
-
-    /* For IE 9- */
-    font-size: 24px;
-
-    /* For IE 10+ and modern browsers */
     font-size: 1.5rem;
 }
 
-/* 设置段落的属性。 */
 p {
-    /* Public style */
     line-height: 1.5;
     font-weight: 300;
-
-    /* For IE 9- */
-    font-size: 16px;
-
-    /* For IE 10+ and modern style */
     font-size: 1rem;
 }
 
-/* 设置链接的属性。 */
 a {
-    /* Public style */
     color: #09c;
     text-decoration: none;
-
-    /* For IE 10+ and modern style */
     transition: 0.4s;
 }
 
-/* 设置链接鼠标悬停的样式。 */
 a:hover {
-    /* For IE 8- */
-    background-color: #d6f5ff;
-
-    /* For IE 9+ and modern style */
     background-color: hsla(195, 100%, 60%, 0.2);
 }
 
-/* 设置推荐浏览器部分的布局。 */
 .alternate-broswers {
-    /* Public style */
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
 }
 
-/* 设置推荐浏览器部分的链接的布局。 */
 .alternate-broswer-link {
-    /* Public style */
     float: left;
-
-    /* For IE 9- */
-    padding: 24px;
-
-    /* For IE 10+ and modern style */
     padding: 1.5rem;
 }
 
-/* 设置推荐浏览器部分的图标格式。 */
 .alternate-broswer-icon {
-    /* Public style */
     margin: -6px 8px 0 0;
     vertical-align: middle;
     border: none;
-
-    /* For IE 9- */
-    width: 24px;
-    height: 24px;
-
-    /* For IE 10+ and modern style */
     width: 1.5rem;
     height: 1.5rem;
 }
 
-/* 免责声明的样式。 */
 .disclaimer {
-    /* Public style */
     text-align: left;
     color: gray;
-
-    /* For IE 9- */
-    font-size: 12px;
-
-    /* For IE 10+ and modern style */
     font-size: 0.75rem;
 }
 
-/* 设置摘要的属性。 */
 .summary {
-    /* Public style */
     display: block;
     line-height: 1.5;
     font-weight: 400;
-
-    /* For IE 9- */
-    font-size: 24px;
-
-    /* For IE 10+ and modern style */
     font-size: 1.5rem;
 }
 
-/* 切换语言的按钮停止在页面右侧。 */
 #switch-language-link {
-    /* Public style */
     float: right;
+}
+
+
+
+/* IE 6、IE 7 和 IE 8 会解析此选择器。 */
+
+@media \0screen,
+screen\9 {
+
+    /* IE 9 及更早的版本不支持 "vw" 和 "rem" ，改用 "px" */
+    body {
+        padding: 0 240px 0 240px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .alternate-broswer-link {
+        padding: 24px;
+    }
+
+    .alternate-broswer-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .disclaimer {
+        font-size: 12px;
+    }
+
+    .summary {
+        font-size: 24px;
+    }
+
+    /* IE 8 及更早的版本不支持 hsla 和 rgba，采用静态颜色初步模拟类似的视觉效果。 */
+    a:hover {
+        background-color: #d6f5ff;
+    }
+}
+
+
+
+/* IE 9 及更新的版本会解析此选择器。 */
+
+@media screen and (min-width:0\0) {
+
+    /* IE 9 及更早的版本不支持 "vw" 和 "rem" ，改用 "px" */
+    body {
+        padding: 0 240px 0 240px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .alternate-broswer-link {
+        padding: 24px;
+    }
+
+    .alternate-broswer-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .disclaimer {
+        font-size: 12px;
+    }
+
+    .summary {
+        font-size: 24px;
+    }
+
+}
+
+
+
+/* IE 10 及更新的版本会解析此选择器。 */
+/* 由于不存在只解析 IE 9 的选择器，而大部分特性对于 IE 10 而言，已经初步支持，因此需要用原样式覆盖。 */
+
+@media screen and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    /* IE 10 以后，使用 "vm"、"rem" 等单位。 */
+    body {
+        padding: 0 15vw 0 15vw;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .alternate-broswer-link {
+        padding: 1.5rem;
+    }
+
+    .alternate-broswer-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .disclaimer {
+        font-size: 0.75rem;
+    }
+
+    .summary {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* 窄屏设备会解析此选择器。 */
+/* 页面本身是面向 IE 的，不过万一有人使用现代移动设备访问了呢？（谁知道呢？） */
+
+@media (max-width: 1023px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    .alternate-broswers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alternate-broswers tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alternate-broswers td {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .alternate-broswer-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .summary {
+        font-size: 1rem;
+    }
 }
